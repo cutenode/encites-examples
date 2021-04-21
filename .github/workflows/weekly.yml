@@ -1,0 +1,28 @@
+name: weekly encites
+on:
+  schedule:
+    # 00:00:00 every Monday
+    # https://crontab.guru/#0_0_*_*_1
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    # allows us to manually trigger a run
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm ci
+      - run: node weekly.js # run the license builder tool
+        env:
+          ENCITES_GITHUB_PAT: ${{ secrets.ENCITES_GITHUB_PAT }}
+      - uses: gr2m/create-or-update-pull-request-action@v1.x # create a PR or update the Action's existing PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "report: weekly run of encites"
+          body: "The run - unsurprisingly - has some changes. This is a PR of those changes."
+          commit-message: 'chore: run `node weekly.js`'
+          branch: "weekly"
