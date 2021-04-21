@@ -1,0 +1,20 @@
+{
+  "name": "encites-examples",
+  "version": "0.0.1",
+  "description": "Examples for the encites module.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [
+    "encites",
+    "github",
+    "data"
+  ],
+  "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
+  "license": "MIT",
+  "dependencies": {
+    "encites": "^3.0.0",
+    "luxon": "^1.26.0"
+  }
+}
