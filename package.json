@@ -4,7 +4,10 @@
   "description": "Examples for the encites module.",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "report": "node report.js",
+    "report:pretty": "node report.js | pino-pretty"
   },
   "keywords": [
     "encites",
@@ -16,5 +19,9 @@
   "dependencies": {
     "encites": "^4.0.0",
     "luxon": "^1.26.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^7.5.1",
+    "standard": "^16.0.4"
   }
 }
