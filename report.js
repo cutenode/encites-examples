@@ -29,13 +29,11 @@ async function teamData () {
   const dateFilteredEvents = await getEventsFrom.period(`${paths.data}${paths.filenames.megafile}`, paths.dateToCheck.from, paths.dateToCheck.until)
 
   // write the markdown to the correct location
-  writeMarkdownFile(paths.reports.weekly, paths.filenames.weekly, dateFilteredEvents, headings.weekly)
+  await writeMarkdownFile(paths.reports.weekly, paths.filenames.weekly, dateFilteredEvents, headings.weekly)
 
   // delete the megafiles because lol they can get over 100mb and GitHub fails to run Actions because of that
-  const deleteRawMegafileForGitHubSizeConstraints = await unlink(`${paths.raw}${paths.filenames.megafile}`)
-  const deleteFilteredMegafileForGitHubSizeConstraints = await unlink(`${paths.data}${paths.filenames.megafile}`)
-
-  console.log(deleteRawMegafileForGitHubSizeConstraints, deleteFilteredMegafileForGitHubSizeConstraints)
+  await unlink(`${paths.raw}${paths.filenames.megafile}`)
+  await unlink(`${paths.data}${paths.filenames.megafile}`)
 }
 
 teamData()
