@@ -14,7 +14,7 @@
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "dependencies": {
-    "encites": "^3.0.0",
+    "encites": "^4.0.0",
     "luxon": "^1.26.0"
   }
 }
