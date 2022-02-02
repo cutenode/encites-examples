@@ -13,23 +13,16 @@ This is a basic report that you can run, showing off the most complicated potent
 To generate a report:
 
 1. Clone the repo
-
-2. Remove the `output/` directory
-
-3. Update the `people` array in [util/people.js](util/people.js)
-
-4. [Configure GitHub authentication](https://github.com/cutenode/encites#environment-variables)
-
-5. Install the example report tool
-
+1. Remove the `output/` directory (`rm -rf ./output`)
+1. Update the `people` array in [util/people.js](util/people.js) with your GitHub username
+1. Configure [GitHub authentication](https://github.com/cutenode/encites#environment-variables)
+1. Install the project's dependencies
     ```console
     npm install
     ```
-
-6. Run the example report generator
-
+1. Run the example report generator
     ```console
-    node report.js
+    node report.js # or `npm run report`
     ```
 
 This will generate data and Markdown in `/output/`.
