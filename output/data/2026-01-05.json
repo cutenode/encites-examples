@@ -1,0 +1,25 @@
+[
+  {
+    "id": "5594618802",
+    "type": "IssueCommentEvent",
+    "author": "bnb",
+    "repo": "nodejs/node",
+    "title": "sea: generate single executable directly with Node.js binary",
+    "state": "open",
+    "link": "https://github.com/nodejs/node/pull/61167",
+    "number": 61167,
+    "date": "2026-01-04T16:47:18Z",
+    "commentLink": "https://github.com/nodejs/node/pull/61167#issuecomment-3708240833",
+    "reactions": {
+      "total": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
+]
