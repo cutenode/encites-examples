@@ -1,0 +1,827 @@
+[
+  {
+    "id": "7543965856",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1135870484,
+      "name": "bnb/cstrouble",
+      "url": "https://api.github.com/repos/bnb/cstrouble"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-01-16T17:57:08Z"
+  },
+  {
+    "id": "7542550170",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1135840500,
+      "name": "bnb/contint",
+      "url": "https://api.github.com/repos/bnb/contint"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-01-16T17:05:28Z"
+  },
+  {
+    "id": "7449495855",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1133762109,
+      "name": "cutenode/departurled",
+      "url": "https://api.github.com/repos/cutenode/departurled"
+    },
+    "payload": {
+      "repository_id": 1133762109,
+      "push_id": 29744578660,
+      "ref": "refs/heads/main",
+      "head": "714a5f28c31b01199626c70d7c5db817676f46f1",
+      "before": "18eea723d8e86d0a3e85511cb4cbd4a963a2b2ba"
+    },
+    "public": true,
+    "created_at": "2026-01-14T03:13:03Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "7443891174",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1133762109,
+      "name": "cutenode/departurled",
+      "url": "https://api.github.com/repos/cutenode/departurled"
+    },
+    "payload": {
+      "repository_id": 1133762109,
+      "push_id": 29738966298,
+      "ref": "refs/heads/main",
+      "head": "18eea723d8e86d0a3e85511cb4cbd4a963a2b2ba",
+      "before": "ee696a70cc3f6393fb3c5c6500012079b1f9feaf"
+    },
+    "public": true,
+    "created_at": "2026-01-13T22:21:42Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "7442477595",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1133762109,
+      "name": "cutenode/departurled",
+      "url": "https://api.github.com/repos/cutenode/departurled"
+    },
+    "payload": {
+      "repository_id": 1133762109,
+      "push_id": 29737554795,
+      "ref": "refs/heads/main",
+      "head": "ee696a70cc3f6393fb3c5c6500012079b1f9feaf",
+      "before": "b12a961a4f0963dab1b07fdd510ad087fe532978"
+    },
+    "public": true,
+    "created_at": "2026-01-13T21:23:22Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "7440158728",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1133762109,
+      "name": "cutenode/departurled",
+      "url": "https://api.github.com/repos/cutenode/departurled"
+    },
+    "payload": {
+      "repository_id": 1133762109,
+      "push_id": 29735246666,
+      "ref": "refs/heads/main",
+      "head": "3e8a49dbd4ef179e4c5578b228e0de33bd354fae",
+      "before": "bb0678f90cd348431b920f0d7f89b9a671c6c7e6"
+    },
+    "public": true,
+    "created_at": "2026-01-13T19:55:40Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "7439623225",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1133762109,
+      "name": "cutenode/departurled",
+      "url": "https://api.github.com/repos/cutenode/departurled"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-01-13T19:35:04Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5779917784",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3655945339,
+        "node_id": "PRR_kwDOF9DIM87Z6Ux7",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "5a0212c497b11e15c752874dda78fb958feda78a",
+        "submitted_at": "2026-01-13T13:59:19Z",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/24#pullrequestreview-3655945339",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/24",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/24#pullrequestreview-3655945339"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/24"
+          }
+        },
+        "updated_at": "2026-01-13T13:59:19Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/24",
+        "id": 3126775017,
+        "number": 24,
+        "head": {
+          "ref": "fix-merge",
+          "sha": "5a0212c497b11e15c752874dda78fb958feda78a",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "09085090b6d1f1d440bac0cdcfb682fff13eac7e",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-01-13T13:59:27Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "5779916800",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3655945339,
+        "node_id": "PRR_kwDOF9DIM87Z6Ux7",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "5a0212c497b11e15c752874dda78fb958feda78a",
+        "submitted_at": "2026-01-13T13:59:19Z",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/24#pullrequestreview-3655945339",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/24",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/24#pullrequestreview-3655945339"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/24"
+          }
+        },
+        "updated_at": "2026-01-13T13:59:19Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/24",
+        "id": 3126775017,
+        "number": 24,
+        "head": {
+          "ref": "fix-merge",
+          "sha": "5a0212c497b11e15c752874dda78fb958feda78a",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "09085090b6d1f1d440bac0cdcfb682fff13eac7e",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-01-13T13:59:25Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "5688741424",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 3640812460,
+        "node_id": "PRR_kwDOAZ7xs87ZAmOs",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "85df769312d76492e08f4ee10aea550f8a7cf861",
+        "submitted_at": "2026-01-08T19:00:56Z",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/node/pull/61317#pullrequestreview-3640812460",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/61317",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/61317#pullrequestreview-3640812460"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/61317"
+          }
+        },
+        "updated_at": "2026-01-08T19:00:56Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/61317",
+        "id": 3156847501,
+        "number": 61317,
+        "head": {
+          "ref": "feature/glob-recurse-symlinks",
+          "sha": "7b0c22d4bd16b96948b1b49011f4429dc23b2c4a",
+          "repo": {
+            "id": 1118275143,
+            "url": "https://api.github.com/repos/MatricalDefunkt/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "a327288cc6747cf5e07656a1c45fe2f19e0926ae",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-01-08T19:00:58Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "5688741405",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2673520203",
+        "pull_request_review_id": 3640812460,
+        "id": 2673520203,
+        "node_id": "PRRC_kwDOAZ7xs86fWq5L",
+        "diff_hunk": "@@ -543,3 +543,22 @@ describe('glob - with restricted directory', function() {\n     }\n   });\n });\n+\n+describe('glob follow', () => {\n+  test('should return matched files in symlinked directory when follow is true', async () => {\n+    if (common.isWindows) return;",
+        "path": "test/parallel/test-fs-glob.mjs",
+        "commit_id": "7b0c22d4bd16b96948b1b49011f4429dc23b2c4a",
+        "original_commit_id": "85df769312d76492e08f4ee10aea550f8a7cf861",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "can you explain why we completely bail on this test if we're on Windows?",
+        "created_at": "2026-01-08T19:00:56Z",
+        "updated_at": "2026-01-08T19:00:56Z",
+        "html_url": "https://github.com/nodejs/node/pull/61317#discussion_r2673520203",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/61317",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2673520203"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/61317#discussion_r2673520203"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/61317"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2673520203/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 7,
+        "position": 16,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/61317",
+        "id": 3156847501,
+        "number": 61317,
+        "head": {
+          "ref": "feature/glob-recurse-symlinks",
+          "sha": "7b0c22d4bd16b96948b1b49011f4429dc23b2c4a",
+          "repo": {
+            "id": 1118275143,
+            "url": "https://api.github.com/repos/MatricalDefunkt/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "a327288cc6747cf5e07656a1c45fe2f19e0926ae",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-01-08T19:00:56Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "7240731102",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1129270075,
+      "name": "bnb/mastermind",
+      "url": "https://api.github.com/repos/bnb/mastermind"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": "tiny mastermind implementation with Node.js, emoji, and enquirer",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-01-06T21:21:02Z"
+  },
+  {
+    "id": "5594618802",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/node/issues/61167",
+        "repository_url": "https://api.github.com/repos/nodejs/node",
+        "labels_url": "https://api.github.com/repos/nodejs/node/issues/61167/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/node/issues/61167/comments",
+        "events_url": "https://api.github.com/repos/nodejs/node/issues/61167/events",
+        "html_url": "https://github.com/nodejs/node/pull/61167",
+        "id": 3760754367,
+        "node_id": "PR_kwDOAZ7xs866gJ-I",
+        "number": 61167,
+        "title": "sea: generate single executable directly with Node.js binary",
+        "user": {
+          "login": "joyeecheung",
+          "id": 4299420,
+          "node_id": "MDQ6VXNlcjQyOTk0MjA=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/4299420?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joyeecheung",
+          "html_url": "https://github.com/joyeecheung",
+          "followers_url": "https://api.github.com/users/joyeecheung/followers",
+          "following_url": "https://api.github.com/users/joyeecheung/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joyeecheung/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joyeecheung/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joyeecheung/subscriptions",
+          "organizations_url": "https://api.github.com/users/joyeecheung/orgs",
+          "repos_url": "https://api.github.com/users/joyeecheung/repos",
+          "events_url": "https://api.github.com/users/joyeecheung/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joyeecheung/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 171787391,
+            "node_id": "MDU6TGFiZWwxNzE3ODczOTE=",
+            "url": "https://api.github.com/repos/nodejs/node/labels/build",
+            "name": "build",
+            "color": "eb6420",
+            "default": false,
+            "description": "Issues and PRs related to build files or the CI."
+          },
+          {
+            "id": 191447057,
+            "node_id": "MDU6TGFiZWwxOTE0NDcwNTc=",
+            "url": "https://api.github.com/repos/nodejs/node/labels/meta",
+            "name": "meta",
+            "color": "fef2c0",
+            "default": false,
+            "description": "Issues and PRs related to the general management of the project."
+          },
+          {
+            "id": 1057120897,
+            "node_id": "MDU6TGFiZWwxMDU3MTIwODk3",
+            "url": "https://api.github.com/repos/nodejs/node/labels/needs-ci",
+            "name": "needs-ci",
+            "color": "82abe5",
+            "default": false,
+            "description": "PRs that need a full CI run."
+          },
+          {
+            "id": 1310918284,
+            "node_id": "MDU6TGFiZWwxMzEwOTE4Mjg0",
+            "url": "https://api.github.com/repos/nodejs/node/labels/review%20wanted",
+            "name": "review wanted",
+            "color": "10efeb",
+            "default": false,
+            "description": "PRs that need reviews."
+          },
+          {
+            "id": 1911017544,
+            "node_id": "MDU6TGFiZWwxOTExMDE3NTQ0",
+            "url": "https://api.github.com/repos/nodejs/node/labels/dependencies",
+            "name": "dependencies",
+            "color": "0366d6",
+            "default": false,
+            "description": "Pull requests that update a dependency file."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 7,
+        "created_at": "2025-12-24T17:28:03Z",
+        "updated_at": "2026-01-15T21:33:01Z",
+        "closed_at": null,
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/61167",
+          "html_url": "https://github.com/nodejs/node/pull/61167",
+          "diff_url": "https://github.com/nodejs/node/pull/61167.diff",
+          "patch_url": "https://github.com/nodejs/node/pull/61167.patch",
+          "merged_at": null
+        },
+        "body": "For reviewers: the bulk of the core changes are in the commit `sea: add --build-sea to generate SEA directly with Node.js binary`; The dependency updating tools and license updates are in `deps: add tools and scripts to pull LIEF as a dependency`. The rest are mostly refactoring and pulling LIEF using the script added in the previous commit.\r\n\r\n---\r\n\r\nInstead of relying on a WASM build of postject to perform the injection, add LIEF as dependency and generate the SEA directly from core via a new CLI option --build-sea which takes the SEA config. Thi simplifies SEA generation for users and makes it easier to debug/maintain the SEA building process.\r\n\r\nFor the time being, backward compatibility with the postject-based SEA building process will be maintained, until there's motivation to break it (e.g. for optimizations)\r\n\r\nThe new process is simplified to as follows - no more knowledge about the blob location in the binary needed:\r\n\r\n```\r\n$ echo 'console.log(\"Hello\")' > hello.js\r\n$ echo '{ \"main\": \"hello.js\", \"output\": \"sea\" }' > sea-config.json\r\n$ node --build-sea sea-config.json\r\n$ ./sea\r\nHello\r\n```\r\n\r\n---\r\n\r\nThis idea was discussed a while back (brought up by @marco-ippolito) [at the collaboration summit](https://github.com/openjs-foundation/summit/issues/447) to improve the UX of SEA building process, which currently requires users to use an external tool (i.e. [postject](https://github.com/nodejs/postject)) to perform the injection, and know about the layout of the target binary. For most users, the details are probably not very useful. Moving the injection process into core simplifies the process.\r\n\r\nBringing it into core may also make it easier to implement some of the ideas brought up [back in 2022](https://github.com/nodejs/single-executable/issues/32#issuecomment-1266115247) that would require close coordination with core to implement (e.g. trimming ICU data post-build to reduce binary size). \r\n\r\nI've been helping out with the SEA feature from time to time and as I see it, apart from UX improvement, I found the current WASM-based tool somewhat difficult to debug when I was trying to fix https://github.com/nodejs/postject/issues/105. Also, the WASM build is significantly slower than a native build, which adds friction to the debugging process.\r\n\r\n```\r\n$ time out/Release/node test/sea/test-single-executable-application.js\r\nCopied /Users/joyee/projects/node/out/Release/node to /Users/joyee/projects/node/test/.tmp.0/sea\r\nInjected /Users/joyee/projects/node/test/.tmp.0/sea-prep.blob into /Users/joyee/projects/node/test/.tmp.0/sea\r\nSigned /Users/joyee/projects/node/test/.tmp.0/sea\r\n\r\nUser time: 5.12s\r\nSystem time: 0.38s\r\nCPU time: 90%\r\nTotal time: 6.06s\r\n\r\n$ time out/Release/node test/sea/test-build-sea.js\r\nSigned /Users/joyee/projects/node/test/.tmp.0/sea\r\n\r\nUser time: 1.79s\r\nSystem time: 0.34s\r\nCPU time: 74%\r\nTotal time: 2.85s\r\n```\r\n\r\nAt the summit @RaisinTen mentioned one concern about the potential binary size increase. With this POC the binary size is only increased by 5-6 MB on macOS/Linux, and ~3MB on Windows, which seems acceptable (as a reference, this is smaller than the decrease we recently got from compiling V8 with default hidden visibility https://github.com/nodejs/node/pull/56290#issuecomment-3411518780)\r\n\r\n```\r\n# Linux\r\n$ ls -lah ./node_without_lief ./out/Release/node\r\n-rwxr-xr-x 1 developer developer 122M Dec 24 16:50 ./node_without_lief\r\n-rwxr-xr-x 1 developer developer 128M Dec 24 16:51 ./out/Release/node\r\n\r\n# macOS\r\n$ ls -lah ./node_without_lief ./out/Release/node\r\n-rwxr-xr-x@ 1 joyee  staff   125M Dec 24 17:48 ./node_without_lief\r\n-rwxr-xr-x@ 1 joyee  staff   130M Dec 24 17:48 ./out/Release/node\r\n\r\n# Windows\r\n$ ls -lah out\\Release\\node.exe .\\node_main.exe\r\n-rwxr-xr-x 1 joyee 197121 87M Jan  1 19:29 '.\\node_main.exe'\r\n-rwxr-xr-x 1 joyee 197121 90M Jan  1 19:42 'out\\Release\\node.exe'\r\n```\r\n\r\nIn addition, I think the LIEF library may also be useful for other purposes e.g. demangling the names in the V8 prof profiles, which is a current bottleneck when trying to analyze logs via `--prof-process` by calling out to `nm` and `c++filt`.\r\n\r\n---\r\n\r\n### Commits\r\n\r\n#### test: use fixture directories for sea tests\r\n\r\nInstead of copying and writing files on the fly for SEA tests,\r\nput the fixtures into a directory and copy them into tmpdir\r\nfor testing. This allows easier reproduction and debugging\r\nwhen they do fail - we can just copy the entire fixture directory\r\nand test directly from there.\r\n\r\n#### deps: add tools and scripts to pull LIEF as a dependency\r\n\r\n#### deps: add LIEF as a dependency\r\n\r\n#### sea: split sea binary manipulation code\r\n\r\nSplit the sea binary manipulation code to a seperate file so that\r\nadding more low-level binary manipulation code doesn't clobber the\r\nhigher-level code.\r\n\r\n#### sea: add --build-sea to generate SEA directly with Node.js binary\r\n\r\nInstead of relying on a WASM build of postject to perform the\r\ninjection, add LIEF as dependency and generate the SEA directly\r\nfrom core via a new CLI option --build-sea which takes the SEA\r\nconfig. This simplifies SEA generation for users and makes it\r\neasier to debug/maintain the SEA building process.\r\n\r\n#### test: migrate to --build-sea in existing SEA tests\r\n\r\nOnly leave a smoking test for the postject-based workflow\r\nin test-single-executable-application.js\r\n\r\n\r\n<!--\r\nBefore submitting a pull request, please read:\r\n\r\n- the CONTRIBUTING guide at https://github.com/nodejs/node/blob/HEAD/CONTRIBUTING.md\r\n- the commit message formatting guidelines at\r\n  https://github.com/nodejs/node/blob/HEAD/doc/contributing/pull-requests.md#commit-message-guidelines\r\n\r\nFor code changes:\r\n1. Include tests for any bug fixes or new features.\r\n2. Update documentation if relevant.\r\n3. Ensure that `make -j4 test` (UNIX), or `vcbuild test` (Windows) passes.\r\n\r\nIf you believe this PR should be highlighted in the Node.js CHANGELOG\r\nplease add the `notable-change` label.\r\n\r\nDeveloper's Certificate of Origin 1.1\r\n\r\nBy making a contribution to this project, I certify that:\r\n\r\n(a) The contribution was created in whole or in part by me and I\r\n    have the right to submit it under the open source license\r\n    indicated in the file; or\r\n\r\n(b) The contribution is based upon previous work that, to the best\r\n    of my knowledge, is covered under an appropriate open source\r\n    license and I have the right under that license to submit that\r\n    work with modifications, whether created in whole or in part\r\n    by me, under the same open source license (unless I am\r\n    permitted to submit under a different license), as indicated\r\n    in the file; or\r\n\r\n(c) The contribution was provided directly to me by some other\r\n    person who certified (a), (b) or (c) and I have not modified\r\n    it.\r\n\r\n(d) I understand and agree that this project and the contribution\r\n    are public and that a record of the contribution (including all\r\n    personal information I submit with it, including my sign-off) is\r\n    maintained indefinitely and may be redistributed consistent with\r\n    this project or the open source license(s) involved.\r\n-->\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/issues/61167/reactions",
+          "total_count": 29,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 13,
+          "confused": 0,
+          "heart": 16,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/node/issues/61167/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/issues/comments/3708240833",
+        "html_url": "https://github.com/nodejs/node/pull/61167#issuecomment-3708240833",
+        "issue_url": "https://api.github.com/repos/nodejs/node/issues/61167",
+        "id": 3708240833,
+        "node_id": "IC_kwDOAZ7xs87dB0PB",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-01-04T16:47:18Z",
+        "updated_at": "2026-01-04T16:47:18Z",
+        "body": "+1 to this, really lovely DX improvement for the average SEA user and will make SEA an even easier choice for building standalone CLIs.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/issues/comments/3708240833/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-01-04T16:47:18Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  }
+]
