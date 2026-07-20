@@ -1,0 +1,49 @@
+[
+  {
+    "id": "11717884360",
+    "type": "IssueCommentEvent",
+    "author": "bnb",
+    "repo": "nodejs/node",
+    "title": "repl: add .clearhistory command",
+    "state": "open",
+    "link": "https://github.com/nodejs/node/pull/64450",
+    "number": 64450,
+    "date": "2026-07-13T15:00:17Z",
+    "commentLink": "https://github.com/nodejs/node/pull/64450#issuecomment-4959356951",
+    "reactions": {
+      "total": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  },
+  {
+    "id": "11717733974",
+    "type": "PullRequestReviewEvent",
+    "author": "bnb",
+    "repo": "nodejs/node",
+    "number": 64452,
+    "date": "2026-07-13T14:57:18Z",
+    "action": "created",
+    "state": "commented",
+    "commitId": "e899ec4363b0d526e7afc5d9fcbf413ad20650cf",
+    "reviewLink": "https://github.com/nodejs/node/pull/64452#pullrequestreview-4685915913"
+  },
+  {
+    "id": "11717330813",
+    "type": "PullRequestReviewEvent",
+    "author": "bnb",
+    "repo": "nodejs/node",
+    "number": 64458,
+    "date": "2026-07-13T14:49:34Z",
+    "action": "created",
+    "state": "approved",
+    "commitId": "4ebea13ea805a0ce4d3a5103145b9a993d50298f",
+    "reviewLink": "https://github.com/nodejs/node/pull/64458#pullrequestreview-4685847771"
+  }
+]
