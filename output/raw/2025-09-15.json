@@ -1,0 +1,98 @@
+[
+  {
+    "id": "53569897058",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 22736886,
+      "name": "nodejs/build",
+      "url": "https://api.github.com/repos/nodejs/build"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/build/issues/4127",
+        "repository_url": "https://api.github.com/repos/nodejs/build",
+        "labels_url": "https://api.github.com/repos/nodejs/build/issues/4127/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/build/issues/4127/comments",
+        "events_url": "https://api.github.com/repos/nodejs/build/issues/4127/events",
+        "html_url": "https://github.com/nodejs/build/issues/4127",
+        "id": 3335810243,
+        "node_id": "I_kwDOAVrv9s7G1GzD",
+        "number": 4127,
+        "title": "web-infra access to search console",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2025-08-19T21:59:38Z",
+        "updated_at": "2025-08-19T21:59:38Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "body": "there seems to currently be an issue on Google where indexing of older posts has been bugged out and indexed titles are not reflecting meta tags. There was some discussion I started [in slack](https://openjs-foundation.slack.com/archives/CVAMEJ4UV/p1754500928795959), and it resurfaced when an additional page was found recently.\n\n@MattIPv4 suggested that @nodejs/web-infra getting access to the Search Console could help figure this out, and suggested that someone create an issue for this. Would that be on the table?",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/build/issues/4127/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/build/issues/4127/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      }
+    },
+    "public": true,
+    "created_at": "2025-08-19T21:59:40Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  }
+]

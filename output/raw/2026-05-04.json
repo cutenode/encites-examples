@@ -1,0 +1,1719 @@
+[
+  {
+    "id": "8857632581",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1063,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1063",
+        "id": 3334342819,
+        "number": 1063,
+        "head": {
+          "ref": "patch-1",
+          "sha": "58c067a7a9d0f71f695fe835926b2b0e705b08ab",
+          "repo": {
+            "id": 1168234388,
+            "url": "https://api.github.com/repos/AGtheking326/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-27T06:43:54Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857584210",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1068,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1068",
+        "id": 3403674285,
+        "number": 1068,
+        "head": {
+          "ref": "patch-1",
+          "sha": "a6044aeedf78547ccfa6a976785d34396d4632f1",
+          "repo": {
+            "id": 1183147092,
+            "url": "https://api.github.com/repos/ayesha-masrath/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-03-16T10:20:11Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857578787",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1070,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1070",
+        "id": 3407743604,
+        "number": 1070,
+        "head": {
+          "ref": "fix/readme-typo",
+          "sha": "e6d48430d555aa9f5dadd136a3e7839fd87fa33f",
+          "repo": {
+            "id": 1183946441,
+            "url": "https://api.github.com/repos/Samyuktha14/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-03-17T05:54:32Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857569763",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1075,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1075",
+        "id": 3433990576,
+        "number": 1075,
+        "head": {
+          "ref": "fix-unhandled-promise-rejection",
+          "sha": "82b59ead5f776a33912ddf77bf0a14a5c9e0523d",
+          "repo": {
+            "id": 1189570072,
+            "url": "https://api.github.com/repos/nmurrell07/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-03-23T13:18:47Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857513567",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1072,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1072",
+        "id": 3430702544,
+        "number": 1072,
+        "head": {
+          "ref": "fix-typo",
+          "sha": "adcfba0f226edb141b2b462b40cd4326b769609c",
+          "repo": {
+            "id": 1188449372,
+            "url": "https://api.github.com/repos/Ankit-kumar2764/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-03-22T13:38:34Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857507498",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1073,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1073",
+        "id": 3430960996,
+        "number": 1073,
+        "head": {
+          "ref": "fix-readme-typo",
+          "sha": "c4b89efd5d6e76c9a5ccec79d62d2359f512a39c",
+          "repo": {
+            "id": 1188774398,
+            "url": "https://api.github.com/repos/shwetavhannure/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-03T15:09:51Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857503852",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1076,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1076",
+        "id": 3462477763,
+        "number": 1076,
+        "head": {
+          "ref": "add-CodeIt-project",
+          "sha": "cb42e25ea2b5ca31fc78248487910cc7b59dfbec",
+          "repo": {
+            "id": 1195260444,
+            "url": "https://api.github.com/repos/keshav0774/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-03-29T13:19:54Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857503832",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076",
+        "repository_url": "https://api.github.com/repos/cutenode/good-first-issue",
+        "labels_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076/labels{/name}",
+        "comments_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076/comments",
+        "events_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076/events",
+        "html_url": "https://github.com/cutenode/good-first-issue/pull/1076",
+        "id": 4164266672,
+        "node_id": "PR_kwDOCU7Ezs7OYTfD",
+        "number": 1076,
+        "title": "Add CodeIt project to projects list ",
+        "user": {
+          "login": "keshav0774",
+          "id": 211845148,
+          "node_id": "U_kgDODKCAHA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/211845148?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/keshav0774",
+          "html_url": "https://github.com/keshav0774",
+          "followers_url": "https://api.github.com/users/keshav0774/followers",
+          "following_url": "https://api.github.com/users/keshav0774/following{/other_user}",
+          "gists_url": "https://api.github.com/users/keshav0774/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/keshav0774/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/keshav0774/subscriptions",
+          "organizations_url": "https://api.github.com/users/keshav0774/orgs",
+          "repos_url": "https://api.github.com/users/keshav0774/repos",
+          "events_url": "https://api.github.com/users/keshav0774/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/keshav0774/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2026-03-29T13:19:54Z",
+        "updated_at": "2026-04-28T06:12:32Z",
+        "closed_at": "2026-04-28T06:12:31Z",
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1076",
+          "html_url": "https://github.com/cutenode/good-first-issue/pull/1076",
+          "diff_url": "https://github.com/cutenode/good-first-issue/pull/1076.diff",
+          "patch_url": "https://github.com/cutenode/good-first-issue/pull/1076.patch",
+          "merged_at": null
+        },
+        "body": "Added CodeIt, an AI-powered LeetCode-like platform, to the projects list.\r\n\r\nThis project includes beginner-friendly issues labeled as \"good first issue\" to help new contributors get started.",
+        "reactions": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/comments/4332784491",
+        "html_url": "https://github.com/cutenode/good-first-issue/pull/1076#issuecomment-4332784491",
+        "issue_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1076",
+        "id": 4332784491,
+        "node_id": "IC_kwDOCU7Ezs8AAAABAkELaw",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-28T06:12:31Z",
+        "updated_at": "2026-04-28T06:12:31Z",
+        "body": "I don't like AI, and would prefer to not mix good-first-issue spaces with AI spaces",
+        "reactions": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/comments/4332784491/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-28T06:12:31Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857466994",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1079,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1079",
+        "id": 3484792917,
+        "number": 1079,
+        "head": {
+          "ref": "add-docs-site",
+          "sha": "00ffff67408dfd7fad94298c8389a1bbf85ca0bd",
+          "repo": {
+            "id": 1200066845,
+            "url": "https://api.github.com/repos/Slimdan20/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-03T02:39:28Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857458428",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1081,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1081",
+        "id": 3518106938,
+        "number": 1081,
+        "head": {
+          "ref": "fix/typo-readme",
+          "sha": "38b93577c5a54310b56e184e7db6508f4f932ece",
+          "repo": {
+            "id": 1208071643,
+            "url": "https://api.github.com/repos/ishitGsigma/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-11T19:32:56Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857454923",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1083,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1083",
+        "id": 3549811153,
+        "number": 1083,
+        "head": {
+          "ref": "pratima1609-patch-1",
+          "sha": "8999eb8e47fc1301fd0a40a29976c54cc15c7972",
+          "repo": {
+            "id": 1214318113,
+            "url": "https://api.github.com/repos/pratima1609/good-first-issue",
+            "name": "good-first-issue"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9",
+          "repo": {
+            "id": 156157134,
+            "url": "https://api.github.com/repos/cutenode/good-first-issue",
+            "name": "good-first-issue"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-25T21:44:54Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8857446409",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 156157134,
+      "name": "cutenode/good-first-issue",
+      "url": "https://api.github.com/repos/cutenode/good-first-issue"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084",
+        "repository_url": "https://api.github.com/repos/cutenode/good-first-issue",
+        "labels_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084/labels{/name}",
+        "comments_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084/comments",
+        "events_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084/events",
+        "html_url": "https://github.com/cutenode/good-first-issue/pull/1084",
+        "id": 4288240130,
+        "node_id": "PR_kwDOCU7Ezs7Tl9z5",
+        "number": 1084,
+        "title": "Refactor good-first-issue.js for consistency",
+        "user": {
+          "login": "Vishal-ghorpade",
+          "id": 156352997,
+          "node_id": "U_kgDOCVHB5Q",
+          "avatar_url": "https://avatars.githubusercontent.com/u/156352997?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Vishal-ghorpade",
+          "html_url": "https://github.com/Vishal-ghorpade",
+          "followers_url": "https://api.github.com/users/Vishal-ghorpade/followers",
+          "following_url": "https://api.github.com/users/Vishal-ghorpade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Vishal-ghorpade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Vishal-ghorpade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Vishal-ghorpade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Vishal-ghorpade/orgs",
+          "repos_url": "https://api.github.com/users/Vishal-ghorpade/repos",
+          "events_url": "https://api.github.com/users/Vishal-ghorpade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Vishal-ghorpade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2026-04-18T14:16:09Z",
+        "updated_at": "2026-04-28T06:10:13Z",
+        "closed_at": null,
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue/pulls/1084",
+          "html_url": "https://github.com/cutenode/good-first-issue/pull/1084",
+          "diff_url": "https://github.com/cutenode/good-first-issue/pull/1084.diff",
+          "patch_url": "https://github.com/cutenode/good-first-issue/pull/1084.patch",
+          "merged_at": null
+        },
+        "body": "\r\n\r\nHi maintainers 👋,  \r\n\r\nI noticed that when the GitHub API rate limit is exceeded, the CLI currently prints the full JSON error object. For new contributors, this can be overwhelming and makes the tool harder to use.  \r\n\r\nThis PR improves the developer experience by:  \r\n- Catching the `403` rate‑limit error in `bin/good-first-issue.js`.  \r\n- Printing a concise, user‑friendly warning instead of raw JSON.  \r\n- Suggesting authentication with a personal access token for higher limits.  \r\n\r\n**Before:**  \r\n```\r\nRequestError [HttpError]: API rate limit exceeded for ...\r\n{ huge JSON dump }\r\n```\r\n\r\n**After:**  \r\n```\r\n⚠️ GitHub API rate limit exceeded.\r\nTip: Authenticate with a personal access token to get a higher limit.\r\nSee: https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting\r\n```\r\n\r\nThis change keeps the CLI output clean and beginner‑friendly, while still guiding users toward the right solution. I believe this small improvement makes the tool more approachable for first‑time contributors.  \r\n\r\nLooking forward to your feedback, and happy to adjust if you’d prefer different wording or formatting.  \r\n\r\n\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/comments/4332773764",
+        "html_url": "https://github.com/cutenode/good-first-issue/pull/1084#issuecomment-4332773764",
+        "issue_url": "https://api.github.com/repos/cutenode/good-first-issue/issues/1084",
+        "id": 4332773764,
+        "node_id": "IC_kwDOCU7Ezs8AAAABAkDhhA",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-28T06:10:13Z",
+        "updated_at": "2026-04-28T06:10:13Z",
+        "body": "please fix your formatter.",
+        "reactions": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue/issues/comments/4332773764/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-28T06:10:13Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8718849792",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1214542327,
+      "name": "endevco/aube",
+      "url": "https://api.github.com/repos/endevco/aube"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-04-23T15:04:26Z",
+    "org": {
+      "id": 263159590,
+      "login": "endevco",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/endevco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/263159590?"
+    }
+  },
+  {
+    "id": "8683064948",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4156660300,
+        "node_id": "PRR_kwDOAZ7xs873wZpM",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "6790ffa6824f8f2deef345e08638259ebcfeafc3",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/62850#pullrequestreview-4156660300",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/62850",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/62850#pullrequestreview-4156660300"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/62850"
+          }
+        },
+        "submitted_at": "2026-04-22T17:25:08Z",
+        "updated_at": "2026-04-22T17:25:08Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/62850",
+        "id": 3555176544,
+        "number": 62850,
+        "head": {
+          "ref": "dependabot/github_actions/actions/upload-artifact-7.0.1",
+          "sha": "6790ffa6824f8f2deef345e08638259ebcfeafc3",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "9c4ca0a12d1c73d04eca772165fb7ca986b30958",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-04-22T17:25:11Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8617879227",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4144921550,
+        "node_id": "PRR_kwDOAZ7xs873DnvO",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "7439fa5524bf6f3235f4fae0eb7cbdcce4c55d04",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/62842#pullrequestreview-4144921550",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/62842",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/62842#pullrequestreview-4144921550"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/62842"
+          }
+        },
+        "submitted_at": "2026-04-21T03:58:11Z",
+        "updated_at": "2026-04-21T03:58:11Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/62842",
+        "id": 3555172114,
+        "number": 62842,
+        "head": {
+          "ref": "dependabot/github_actions/actions/setup-node-6.4.0",
+          "sha": "7439fa5524bf6f3235f4fae0eb7cbdcce4c55d04",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "e0c9637afc47f2e86c59e7274ea7aefe39814c6f",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-04-21T03:58:13Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8617261099",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4144823333,
+        "node_id": "PRR_kwDOAZ7xs873DPwl",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "f733c7046792b85be5a4775027df7a78f0449b81",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/62856#pullrequestreview-4144823333",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/62856",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/62856#pullrequestreview-4144823333"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/62856"
+          }
+        },
+        "submitted_at": "2026-04-21T03:23:17Z",
+        "updated_at": "2026-04-21T03:23:17Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/62856",
+        "id": 3556977538,
+        "number": 62856,
+        "head": {
+          "ref": "fix-author-automated-prs",
+          "sha": "f733c7046792b85be5a4775027df7a78f0449b81",
+          "repo": {
+            "id": 127020991,
+            "url": "https://api.github.com/repos/aduh95/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "cee146f4b0fc24d4586e326567397a7d295414ed",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-04-21T03:23:18Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8409176941",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4107683959,
+        "node_id": "PRR_kwDOAZ7xs8701kh3",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "After today's Summit discussion, I'd like to recommend that we adjust messaging to be \"discouraged but allowed\". I think that would generally represent the sentiment that was expressed and hit the median of the collaboratorship's opinion.\r\n\r\nIf people are chill with that, happy to submit prose suggestions.",
+        "commit_id": "c9e7c08ce1bf6adaee5d939532fb8b2869a201a8",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/node/pull/62105#pullrequestreview-4107683959",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/62105",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/62105#pullrequestreview-4107683959"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/62105"
+          }
+        },
+        "submitted_at": "2026-04-14T16:44:17Z",
+        "updated_at": "2026-04-14T16:44:41Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/62105",
+        "id": 3355333182,
+        "number": 62105,
+        "head": {
+          "ref": "add-ai-guidelines",
+          "sha": "c9e7c08ce1bf6adaee5d939532fb8b2869a201a8",
+          "repo": {
+            "id": 380557749,
+            "url": "https://api.github.com/repos/RafaelGSS/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1ad06ff9a7e38a93e91167f00761f056784cfa3c",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "updated"
+    },
+    "public": true,
+    "created_at": "2026-04-14T16:44:43Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8409161537",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4107683959,
+        "node_id": "PRR_kwDOAZ7xs8701kh3",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "After today's Summit discussion, I'd like to recommend that we adjust messaging to be \"discouraged but allowed\". I think that would generally represent the sentiment that was expressed and hit the median of the collaboratorship's opinion.\r\n\r\nIf people are chill with that, happy to submit prose suggestions.",
+        "commit_id": "c9e7c08ce1bf6adaee5d939532fb8b2869a201a8",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/node/pull/62105#pullrequestreview-4107683959",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/62105",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/62105#pullrequestreview-4107683959"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/62105"
+          }
+        },
+        "submitted_at": "2026-04-14T16:44:17Z",
+        "updated_at": "2026-04-14T16:44:41Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/62105",
+        "id": 3355333182,
+        "number": 62105,
+        "head": {
+          "ref": "add-ai-guidelines",
+          "sha": "c9e7c08ce1bf6adaee5d939532fb8b2869a201a8",
+          "repo": {
+            "id": 380557749,
+            "url": "https://api.github.com/repos/RafaelGSS/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1ad06ff9a7e38a93e91167f00761f056784cfa3c",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-04-14T16:44:18Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8408768755",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 677462156,
+      "name": "nodejs/release-cloudflare-worker",
+      "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904",
+        "repository_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker",
+        "labels_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/comments",
+        "events_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/events",
+        "html_url": "https://github.com/nodejs/release-cloudflare-worker/issues/904",
+        "id": 4262167100,
+        "node_id": "I_kwDOKGFAjM7-C4I8",
+        "number": 904,
+        "title": "Serve the Release/schedule.json file from the website",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2026-04-14T12:54:09Z",
+        "updated_at": "2026-04-15T21:36:33Z",
+        "closed_at": null,
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "Right now, my package [nodevu](https://github.com/cutenode/nodevu) relies on [Release/schedule.json](https://github.com/nodejs/Release/blob/main/schedule.json) to enrich Node.js version data. This information - even if inaccurate or unreliable! - is very helpful at enriching [dist/index.json](https://nodejs.org/dist/index.json) into a more end-user friendly API. \n\nI'd really love it if this information was available on the website directly, even if put in an experimental/untrusted/unreliable position (`/dist/DONOTUSE/schedule.json`, `/untrustworthy/schedule.json`, etc.). In talking with @ovflowd, apparently nodejs.org's usage of nodevu does sometimes get rate limited by GitHub because it's hitting this file frequently enough.\n\nI recall that in the past @nodejs/release has been hesitant to provide a contract for this file. I'd be 100% okay with taking on the maintenance burden of having breaking changes be unannounced and fully reliant on consumers with no commitment from @nodejs/release. Having it on the website would just be _really_ nice.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/reactions",
+          "total_count": 1,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 1,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null,
+        "pinned_comment": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/comments/4245559665",
+        "html_url": "https://github.com/nodejs/release-cloudflare-worker/issues/904#issuecomment-4245559665",
+        "issue_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904",
+        "id": 4245559665,
+        "node_id": "IC_kwDOKGFAjM79Dhlx",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-14T16:32:54Z",
+        "updated_at": "2026-04-14T16:32:54Z",
+        "body": "nodevu uses all of the information from schedule.json 😅 ",
+        "pin": null,
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/comments/4245559665/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-14T16:32:54Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "10566738375",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "ref": "bnb/knip",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/bnb/knip",
+      "master_branch": "main",
+      "description": "A utility for Node.js version information.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-14T13:18:15Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "8400907250",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 40454551,
+      "name": "nodejs/admin",
+      "url": "https://api.github.com/repos/nodejs/admin"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/admin/issues/1057",
+        "repository_url": "https://api.github.com/repos/nodejs/admin",
+        "labels_url": "https://api.github.com/repos/nodejs/admin/issues/1057/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/admin/issues/1057/comments",
+        "events_url": "https://api.github.com/repos/nodejs/admin/issues/1057/events",
+        "html_url": "https://github.com/nodejs/admin/issues/1057",
+        "id": 4262269083,
+        "node_id": "I_kwDOAmlJl87-DRCb",
+        "number": 1057,
+        "title": "Request Stacked PRs",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2026-04-14T13:11:58Z",
+        "updated_at": "2026-04-20T15:52:31Z",
+        "closed_at": null,
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "GitHub is shipping early access to Stacked PRs, it requires submitting a form: https://github.github.com/gh-stack/\n\nI could just submit the form but I don't think my role as collaborator necessarily gives me the entitlement to do that for us. Honestly this is probably something we can just do - maybe a TSC member should! - but I didn't want to overstep.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/admin/issues/1057/reactions",
+          "total_count": 6,
+          "+1": 5,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 1
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/admin/issues/1057/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "reopened",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-14T13:11:59Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8400235330",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 677462156,
+      "name": "nodejs/release-cloudflare-worker",
+      "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904",
+        "repository_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker",
+        "labels_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/comments",
+        "events_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/events",
+        "html_url": "https://github.com/nodejs/release-cloudflare-worker/issues/904",
+        "id": 4262167100,
+        "node_id": "I_kwDOKGFAjM7-C4I8",
+        "number": 904,
+        "title": "Serve the Release/schedule.json file from the website",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2026-04-14T12:54:09Z",
+        "updated_at": "2026-04-15T21:36:33Z",
+        "closed_at": null,
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "Right now, my package [nodevu](https://github.com/cutenode/nodevu) relies on [Release/schedule.json](https://github.com/nodejs/Release/blob/main/schedule.json) to enrich Node.js version data. This information - even if inaccurate or unreliable! - is very helpful at enriching [dist/index.json](https://nodejs.org/dist/index.json) into a more end-user friendly API. \n\nI'd really love it if this information was available on the website directly, even if put in an experimental/untrusted/unreliable position (`/dist/DONOTUSE/schedule.json`, `/untrustworthy/schedule.json`, etc.). In talking with @ovflowd, apparently nodejs.org's usage of nodevu does sometimes get rate limited by GitHub because it's hitting this file frequently enough.\n\nI recall that in the past @nodejs/release has been hesitant to provide a contract for this file. I'd be 100% okay with taking on the maintenance burden of having breaking changes be unannounced and fully reliant on consumers with no commitment from @nodejs/release. Having it on the website would just be _really_ nice.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/reactions",
+          "total_count": 1,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 1,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/release-cloudflare-worker/issues/904/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null,
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-14T12:54:10Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "8396865779",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 70237926,
+      "name": "nodejs/nodejs-dist-indexer",
+      "url": "https://api.github.com/repos/nodejs/nodejs-dist-indexer"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-04-14T11:15:19Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  }
+]
