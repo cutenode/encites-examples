@@ -1,0 +1,3117 @@
+[
+  {
+    "id": "4432277731",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/node/issues/60472",
+        "repository_url": "https://api.github.com/repos/nodejs/node",
+        "labels_url": "https://api.github.com/repos/nodejs/node/issues/60472/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/node/issues/60472/comments",
+        "events_url": "https://api.github.com/repos/nodejs/node/issues/60472/events",
+        "html_url": "https://github.com/nodejs/node/pull/60472",
+        "id": 3563685642,
+        "node_id": "PR_kwDOAZ7xs86wQSHH",
+        "number": 60472,
+        "title": "doc: update devcontainer.json and add documentation",
+        "user": {
+          "login": "joyeecheung",
+          "id": 4299420,
+          "node_id": "MDQ6VXNlcjQyOTk0MjA=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/4299420?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joyeecheung",
+          "html_url": "https://github.com/joyeecheung",
+          "followers_url": "https://api.github.com/users/joyeecheung/followers",
+          "following_url": "https://api.github.com/users/joyeecheung/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joyeecheung/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joyeecheung/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joyeecheung/subscriptions",
+          "organizations_url": "https://api.github.com/users/joyeecheung/orgs",
+          "repos_url": "https://api.github.com/users/joyeecheung/repos",
+          "events_url": "https://api.github.com/users/joyeecheung/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joyeecheung/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 191447057,
+            "node_id": "MDU6TGFiZWwxOTE0NDcwNTc=",
+            "url": "https://api.github.com/repos/nodejs/node/labels/meta",
+            "name": "meta",
+            "color": "fef2c0",
+            "default": false,
+            "description": "Issues and PRs related to the general management of the project."
+          },
+          {
+            "id": 3544225714,
+            "node_id": "LA_kwDOAZ7xs87TQJey",
+            "url": "https://api.github.com/repos/nodejs/node/labels/commit-queue-squash",
+            "name": "commit-queue-squash",
+            "color": "0DBFBE",
+            "default": false,
+            "description": "Add this label to instruct the Commit Queue to squash all the PR commits into the first one."
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 6,
+        "created_at": "2025-10-28T22:59:39Z",
+        "updated_at": "2025-11-03T18:27:00Z",
+        "closed_at": "2025-11-03T18:26:59Z",
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+          "html_url": "https://github.com/nodejs/node/pull/60472",
+          "diff_url": "https://github.com/nodejs/node/pull/60472.diff",
+          "patch_url": "https://github.com/nodejs/node/pull/60472.patch",
+          "merged_at": "2025-11-03T18:26:59Z"
+        },
+        "body": "The previous .devcontainer.json configuration was outdated and contained personal configurations that were not needed to run a dev container. This updates the structure so that it's put in .devcontainer/base/devcontainer.json based on the recommended setup in GitHub's documentation. The official image now publishes both arm64 and amd64 images, and devcontainer tools should be able to pick up the right one without extra arguments.\r\n\r\nThis also adds documentation on how to use the container.\r\n\r\nI've also recorded a screencast on how to use the dev container to build a development branch in the Linux container from a macOS host without having to build V8 from scratch, and to test third party code installed from npm using the development branch build in the container: https://www.youtube.com/watch?v=3NwaA67jnB0\r\n\r\nRefs: https://github.com/nodejs/devcontainer\r\nRefs: https://hub.docker.com/r/nodejs/devcontainer\r\nRefs: https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers#devcontainerjson\r\n\r\n<!--\r\nBefore submitting a pull request, please read:\r\n\r\n- the CONTRIBUTING guide at https://github.com/nodejs/node/blob/HEAD/CONTRIBUTING.md\r\n- the commit message formatting guidelines at\r\n  https://github.com/nodejs/node/blob/HEAD/doc/contributing/pull-requests.md#commit-message-guidelines\r\n\r\nFor code changes:\r\n1. Include tests for any bug fixes or new features.\r\n2. Update documentation if relevant.\r\n3. Ensure that `make -j4 test` (UNIX), or `vcbuild test` (Windows) passes.\r\n\r\nIf you believe this PR should be highlighted in the Node.js CHANGELOG\r\nplease add the `notable-change` label.\r\n\r\nDeveloper's Certificate of Origin 1.1\r\n\r\nBy making a contribution to this project, I certify that:\r\n\r\n(a) The contribution was created in whole or in part by me and I\r\n    have the right to submit it under the open source license\r\n    indicated in the file; or\r\n\r\n(b) The contribution is based upon previous work that, to the best\r\n    of my knowledge, is covered under an appropriate open source\r\n    license and I have the right under that license to submit that\r\n    work with modifications, whether created in whole or in part\r\n    by me, under the same open source license (unless I am\r\n    permitted to submit under a different license), as indicated\r\n    in the file; or\r\n\r\n(c) The contribution was provided directly to me by some other\r\n    person who certified (a), (b) or (c) and I have not modified\r\n    it.\r\n\r\n(d) I understand and agree that this project and the contribution\r\n    are public and that a record of the contribution (including all\r\n    personal information I submit with it, including my sign-off) is\r\n    maintained indefinitely and may be redistributed consistent with\r\n    this project or the open source license(s) involved.\r\n-->\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/issues/60472/reactions",
+          "total_count": 2,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 2,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/node/issues/60472/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/issues/comments/3481868823",
+        "html_url": "https://github.com/nodejs/node/pull/60472#issuecomment-3481868823",
+        "issue_url": "https://api.github.com/repos/nodejs/node/issues/60472",
+        "id": 3481868823,
+        "node_id": "IC_kwDOAZ7xs87PiRoX",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2025-11-03T18:13:04Z",
+        "updated_at": "2025-11-03T18:13:04Z",
+        "body": "> By the way I just realized with this, new contributors do not even have to download anything locally to start working on Node.js, they can just use GitHub codespace to spin off the developement environment in the browser. This may be very handy for future code and learn sessions - just click a few buttons and you can start working on Node.js core. \r\n\r\nYeah! This was the original intent. The one unfortunate thing that prevented this from being an easy reality is that because of how billing works for Codespaces, there's not really a way for our org to absorb the cost - so the cost of spinning up that Codespaces instance would be on the end-user, and IIRC the base free machine doesn't cover the minimum needs for this devcontainer in a way that is cheap. But, for anyone in the org they should be able to get it for free.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/issues/comments/3481868823/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2025-11-03T18:13:04Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4432240250",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 3412299253,
+        "node_id": "PRR_kwDOAZ7xs87LY431",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "9ceafde3433e13e40244ee9eea26b848d511723d",
+        "submitted_at": "2025-11-03T18:11:02Z",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/60472#pullrequestreview-3412299253",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#pullrequestreview-3412299253"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "updated_at": "2025-11-03T18:11:02Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-11-03T18:11:04Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "5599026442",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 48506837,
+      "name": "bnb/bnb.im",
+      "url": "https://api.github.com/repos/bnb/bnb.im"
+    },
+    "payload": {
+      "repository_id": 48506837,
+      "push_id": 27890380649,
+      "ref": "refs/heads/main",
+      "head": "e986398f386e9670e655bb7a3c09f31c52761a12",
+      "before": "8413d20191c4a0860f71ff18bc37bd7936649e9f"
+    },
+    "public": true,
+    "created_at": "2025-10-31T00:24:41Z"
+  },
+  {
+    "id": "5593611650",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "ref": "bnb/update-core-test",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/bnb/update-core-test",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-10-30T18:56:07Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5593611176",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "repository_id": 189609901,
+      "push_id": 27884949481,
+      "ref": "refs/heads/main",
+      "head": "ebe784ff5fa1293f7be3858a41ec8a42a1db2d37",
+      "before": "ce566c586a98caff230b26f765ce20bf314fa5f1"
+    },
+    "public": true,
+    "created_at": "2025-10-30T18:56:06Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5593605791",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "ref": "bnb/update-test-data",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/bnb/update-test-data",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-10-30T18:55:51Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5593605549",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "repository_id": 189609901,
+      "push_id": 27884943838,
+      "ref": "refs/heads/main",
+      "head": "ce566c586a98caff230b26f765ce20bf314fa5f1",
+      "before": "8700863c0b81631caed332c43a76f1b20174f2b6"
+    },
+    "public": true,
+    "created_at": "2025-10-30T18:55:50Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "4367885872",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 37717474,
+      "name": "nodejs/nodejs.org",
+      "url": "https://api.github.com/repos/nodejs/nodejs.org"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277",
+        "repository_url": "https://api.github.com/repos/nodejs/nodejs.org",
+        "labels_url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277/comments",
+        "events_url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277/events",
+        "html_url": "https://github.com/nodejs/nodejs.org/issues/8277",
+        "id": 3560051501,
+        "node_id": "I_kwDOAj-F4s7UMhMt",
+        "number": 8277,
+        "title": "Node 24.x not yet marked as LTS (\"Krypton\") in index.json (website lists v24.10.0 as Latest LTS)",
+        "user": {
+          "login": "MinaFayez9",
+          "id": 56841027,
+          "node_id": "MDQ6VXNlcjU2ODQxMDI3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/56841027?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MinaFayez9",
+          "html_url": "https://github.com/MinaFayez9",
+          "followers_url": "https://api.github.com/users/MinaFayez9/followers",
+          "following_url": "https://api.github.com/users/MinaFayez9/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MinaFayez9/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MinaFayez9/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MinaFayez9/subscriptions",
+          "organizations_url": "https://api.github.com/users/MinaFayez9/orgs",
+          "repos_url": "https://api.github.com/users/MinaFayez9/repos",
+          "events_url": "https://api.github.com/users/MinaFayez9/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MinaFayez9/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 226550262,
+            "node_id": "MDU6TGFiZWwyMjY1NTAyNjI=",
+            "url": "https://api.github.com/repos/nodejs/nodejs.org/labels/external/build",
+            "name": "external/build",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 29,
+        "created_at": "2025-10-28T05:08:49Z",
+        "updated_at": "2025-10-30T16:36:34Z",
+        "closed_at": null,
+        "type": {
+          "id": 1190259,
+          "node_id": "IT_kwDOAJfUac4AEilz",
+          "name": "Bug",
+          "description": "An unexpected problem or behavior",
+          "color": "red",
+          "created_at": "2024-01-25T12:08:34Z",
+          "updated_at": "2024-07-26T10:21:46Z",
+          "is_enabled": true
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Version\n\nNot applicable – issue concerns Node.js distribution metadata, not runtime behavior.\n\n### Platform\n\n```text\nAll platforms (observed on Windows, but affects all because index.json is global).\n```\n\n### Subsystem\n\nRelease / Distribution metadata\n\n### What steps will reproduce the bug?\n\n1. Visit https://nodejs.org/dist/index.json\n2. Search for any entries for version v24.x.x\n   → all of them have `\"lts\": false`.\n3. Visit https://nodejs.org – it lists v24.10.0 as “Latest LTS”.\n4. Tools that rely on index.json (Volta, nvm, fnm, etc.) still treat Node 22 (\"Jod\") as the current LTS.\n\n### How often does it reproduce? Is there a required condition?\n\nAlways, until the index.json is updated to include `\"lts\": \"Krypton\"` for Node 24 entries.\n\n### What is the expected behavior? Why is that the expected behavior?\n\nWhen Node 24 is promoted to LTS (codename \"Krypton\"), each v24.x entry in index.json\nshould have an `\"lts\"` field set to `\"Krypton\"` rather than `false`.\n\nTools and automation use this field to determine the latest LTS line,\nso keeping it accurate ensures consistency between nodejs.org and the dist metadata.\n\n### What do you see instead?\n\nAll v24.x entries in index.json currently show `\"lts\": false`,\nwhile the homepage lists v24.10.0 as “Latest LTS”.\nThe most recent version marked as LTS in index.json is still 22.21.0 (\"Jod\").\n\n### Additional information\n\nDate checked: 2025-10-28\n\nExample entry from https://nodejs.org/dist/index.json:\n{\n  \"version\": \"v24.10.0\",\n  \"date\": \"2025-10-14\",\n  \"lts\": false\n}\n\nExpected:\n{\n  \"version\": \"v24.10.0\",\n  \"date\": \"2025-10-14\",\n  \"lts\": \"Krypton\"\n}\n\nThis discrepancy causes tools such as Volta, nvm, and fnm — which rely on index.json\nto determine the current LTS — to continue installing Node 22 instead of 24.\n\nThis seems like a metadata lag during the LTS promotion.\nJust filing it here in case the release metadata hasn’t yet been updated.\n\nThanks for maintaining Node.js and for your work on the release process 🙏",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277/reactions",
+          "total_count": 2,
+          "+1": 2,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/nodejs.org/issues/comments/3468955880",
+        "html_url": "https://github.com/nodejs/nodejs.org/issues/8277#issuecomment-3468955880",
+        "issue_url": "https://api.github.com/repos/nodejs/nodejs.org/issues/8277",
+        "id": 3468955880,
+        "node_id": "IC_kwDOAj-F4s7OxBDo",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2025-10-30T16:36:34Z",
+        "updated_at": "2025-10-30T16:36:34Z",
+        "body": "Totally makes sense that there’s some drift here with these two sources and index.json should be prioritized. Probably worth looking at automating updating Scheudle.json since I know I’m not the only one relying on it :)\n\nThat said, totally agree about index.json being prioritized. In theory, should be pretty easy to check the data and see if index.json is more up to date and use that instead once we have that data - this is the exact kind of API smoothness I built nodevu to provide.\n\nI’m about to get on a ~9 hour flight home from SFO, should be able to get a PR up in that time. Will reference this issue from it, should be a seamless fix for the website once published.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/nodejs.org/issues/comments/3468955880/reactions",
+          "total_count": 2,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 2,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-30T16:36:34Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "5589614764",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "repository_id": 189609901,
+      "push_id": 27880944624,
+      "ref": "refs/heads/bnb/update-test-data",
+      "head": "d0871eb44df8510c4d1ea3710845a8d92edde991",
+      "before": "234cf852009356fb4ff9d5d1c6a0594b069ae729"
+    },
+    "public": true,
+    "created_at": "2025-10-30T16:05:03Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "4367017021",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 83,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/nodevu/pulls/83",
+        "id": 2963785492,
+        "number": 83,
+        "head": {
+          "ref": "bnb/update-test-data",
+          "sha": "d0871eb44df8510c4d1ea3710845a8d92edde991",
+          "repo": {
+            "id": 189609901,
+            "url": "https://api.github.com/repos/cutenode/nodevu",
+            "name": "nodevu"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "8700863c0b81631caed332c43a76f1b20174f2b6",
+          "repo": {
+            "id": 189609901,
+            "url": "https://api.github.com/repos/cutenode/nodevu",
+            "name": "nodevu"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-30T16:02:58Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "4366998613",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 82,
+      "pull_request": {
+        "url": "https://api.github.com/repos/cutenode/nodevu/pulls/82",
+        "id": 2963782828,
+        "number": 82,
+        "head": {
+          "ref": "bnb/update-core-test",
+          "sha": "51b4838a77e38ff575f78387254f882f160f765e",
+          "repo": {
+            "id": 189609901,
+            "url": "https://api.github.com/repos/cutenode/nodevu",
+            "name": "nodevu"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "8700863c0b81631caed332c43a76f1b20174f2b6",
+          "repo": {
+            "id": 189609901,
+            "url": "https://api.github.com/repos/cutenode/nodevu",
+            "name": "nodevu"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-30T16:02:13Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5589525991",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "ref": "bnb/update-core-test",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/bnb/update-core-test",
+      "master_branch": "main",
+      "description": "A utility for Node.js version information.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-10-30T16:01:46Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5589453625",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "repository_id": 189609901,
+      "push_id": 27880783127,
+      "ref": "refs/heads/bnb/update-test-data",
+      "head": "234cf852009356fb4ff9d5d1c6a0594b069ae729",
+      "before": "bde7f39b304a463b81d746f295d277ab76524a6f"
+    },
+    "public": true,
+    "created_at": "2025-10-30T15:59:21Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5589423483",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 189609901,
+      "name": "cutenode/nodevu",
+      "url": "https://api.github.com/repos/cutenode/nodevu"
+    },
+    "payload": {
+      "ref": "bnb/update-test-data",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/bnb/update-test-data",
+      "master_branch": "main",
+      "description": "A utility for Node.js version information.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-10-30T15:58:12Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5588036167",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 48506837,
+      "name": "bnb/bnb.im",
+      "url": "https://api.github.com/repos/bnb/bnb.im"
+    },
+    "payload": {
+      "repository_id": 48506837,
+      "push_id": 27879363009,
+      "ref": "refs/heads/main",
+      "head": "8413d20191c4a0860f71ff18bc37bd7936649e9f",
+      "before": "66f51ca6ea3f2baa7c5436436c5ed21f301094f1"
+    },
+    "public": true,
+    "created_at": "2025-10-30T15:07:26Z"
+  },
+  {
+    "id": "5587804784",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 48506837,
+      "name": "bnb/bnb.im",
+      "url": "https://api.github.com/repos/bnb/bnb.im"
+    },
+    "payload": {
+      "repository_id": 48506837,
+      "push_id": 27879131400,
+      "ref": "refs/heads/main",
+      "head": "66f51ca6ea3f2baa7c5436436c5ed21f301094f1",
+      "before": "f907fefbfbf0bcb723b2a1bb514bb9e19bd1599e"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:59:36Z"
+  },
+  {
+    "id": "5587741791",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 48506837,
+      "name": "bnb/bnb.im",
+      "url": "https://api.github.com/repos/bnb/bnb.im"
+    },
+    "payload": {
+      "repository_id": 48506837,
+      "push_id": 27879068082,
+      "ref": "refs/heads/main",
+      "head": "f907fefbfbf0bcb723b2a1bb514bb9e19bd1599e",
+      "before": "e70ea1bf29d734943c33b0088c1d659ad3fa25ed"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:57:22Z"
+  },
+  {
+    "id": "5587543533",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 48506837,
+      "name": "bnb/bnb.im",
+      "url": "https://api.github.com/repos/bnb/bnb.im"
+    },
+    "payload": {
+      "repository_id": 48506837,
+      "push_id": 27878869668,
+      "ref": "refs/heads/main",
+      "head": "e70ea1bf29d734943c33b0088c1d659ad3fa25ed",
+      "before": "0821055aacd9e90c753ccc6c2871e885e1b7d20d"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:50:23Z"
+  },
+  {
+    "id": "5587435094",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 48506837,
+      "name": "bnb/bnb.im",
+      "url": "https://api.github.com/repos/bnb/bnb.im"
+    },
+    "payload": {
+      "repository_id": 48506837,
+      "push_id": 27878761097,
+      "ref": "refs/heads/main",
+      "head": "0821055aacd9e90c753ccc6c2871e885e1b7d20d",
+      "before": "9d20a10adc90c4a61e6d29b64930595a3afa5f73"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:46:33Z"
+  },
+  {
+    "id": "5586781767",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1086490096,
+      "name": "cutenode/is-mdm",
+      "url": "https://api.github.com/repos/cutenode/is-mdm"
+    },
+    "payload": {
+      "repository_id": 1086490096,
+      "push_id": 27878106793,
+      "ref": "refs/heads/main",
+      "head": "e4545992f9e4111e2576a21e360a8690febe1a26",
+      "before": "eafd76005c58f5f90691cca6f69b9d9a3955f608"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:24:13Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5586740242",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1086490096,
+      "name": "cutenode/is-mdm",
+      "url": "https://api.github.com/repos/cutenode/is-mdm"
+    },
+    "payload": {
+      "repository_id": 1086490096,
+      "push_id": 27878065195,
+      "ref": "refs/heads/main",
+      "head": "eafd76005c58f5f90691cca6f69b9d9a3955f608",
+      "before": "97f014ca94807a5383f0f74171cf6607e40e4dfc"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:22:45Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "5586718250",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1086490096,
+      "name": "cutenode/is-mdm",
+      "url": "https://api.github.com/repos/cutenode/is-mdm"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-10-30T14:21:58Z",
+    "org": {
+      "id": 51230274,
+      "login": "cutenode",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/cutenode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51230274?"
+    }
+  },
+  {
+    "id": "4348835462",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 3396829683,
+        "node_id": "PRR_kwDOAZ7xs87Kd4Hz",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "just some minor edits in the guide! Otherwise, code LGTM",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "submitted_at": "2025-10-29T23:31:07Z",
+        "state": "changes_requested",
+        "html_url": "https://github.com/nodejs/node/pull/60472#pullrequestreview-3396829683",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#pullrequestreview-3396829683"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "updated_at": "2025-10-29T23:31:07Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:31:09Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348835456",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 3396829683,
+        "node_id": "PRR_kwDOAZ7xs87Kd4Hz",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "just some minor edits in the guide! Otherwise, code LGTM",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "submitted_at": "2025-10-29T23:31:07Z",
+        "state": "changes_requested",
+        "html_url": "https://github.com/nodejs/node/pull/60472#pullrequestreview-3396829683",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#pullrequestreview-3396829683"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "updated_at": "2025-10-29T23:31:07Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "updated"
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:31:09Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348828854",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475974879",
+        "pull_request_review_id": 3396829683,
+        "id": 2475974879,
+        "node_id": "PRRC_kwDOAZ7xs86TlGDf",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+\n+### 2. Open the Repository in VS Code\n+\n+Launch VS Code and open the cloned Node.js repository.\n+\n+### 3. Start the Dev Container\n+\n+* Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the command palette.\n+* Type `Dev Containers: Reopen in Container` and select it.\n+* Select the appropriate Dev Container configuration from the drop down. The base configuration in this\n+  repository is `Node.js Dev Container` located in\n+  [`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json), which should be\n+  automatically detected by VS Code.\n+\n+### 4. Wait for the Container to Build\n+\n+VS Code will build the Dev Container based on the configuration file. This may take some time depending\n+on your internet connection and system performance.\n+\n+After the container is built, it will start automatically. By default it will run `git restore-mtime` to\n+restore the modification times of the files in the working directory, in order to keep the build cache valid,\n+and you will see something like this in the terminal.\n+\n+```text\n+Running the postCreateCommand from devcontainer.json...\n+\n+[10136 ms] Start: Run in container: /bin/sh -c git restore-mtime\n+```\n+\n+This may take a few seconds. Wait until it finishes before you open a new terminal.\n+\n+### 5. Build your changes\n+\n+Once the container is running, you can open a terminal in VS Code and run the build commands. By default, your\n+local repository is mounted inside a checkout in the container, so any changes you make will be reflected in\n+the container environment.\n+\n+In the Dev Container, the necessary dependencies are already installed. For better developer experience, the\n+build tool used in the Dev Container is `ninja`, instead of `make`. See\n+[Building Node.js with Ninja](./building-node-with-ninja.md) for more details on using `ninja` to build Node.js.\n+\n+```bash\n+./configure --ninja\n+ninja -C out/Release\n+```\n+\n+As long as your local checkout is not too different from the main branch in the nightly image, the build\n+should be incremental and fast.\n+\n+### 6. Leaving the Container\n+\n+When you're done working in the Dev Container, open the command palette again and select\n+`Dev Containers: Reopen Folder locally` to go back to your local development environment.\n+\n+## Customizing the Dev Container\n+\n+The default configuration is located in\n+[`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json) which pairs with the\n+official [Node.js Nightly Dev Container image](https://github.com/nodejs/devcontainer).\n+This is tracked in version control. You can create a personal configuration by creating a new\n+directory in `.devcontainer/` and adding a `devcontainer.json` file there (for example,\n+`.devcontainer/local/devcontainer.json`), and configure VS Code to use it.\n+\n+## Rebuilding the Dev Container\n+\n+Docker will cache the already downloaded Dev Container images. If you wish to pull a new nightly image, you can do\n+so by running the following command in the terminal on your host machine:\n+\n+```bash\n+docker pull nodejs/devcontainer:nightly\n+```\n+\n+The default configuration creates a volume to cache the build outputs between container restarts. If you wish to clear\n+the build cache, you can do so by deleting the volume named `node-devcontainer-cache`.\n+\n+```bash\n+docker volume rm node-devcontainer-cache\n+```\n+\n+To rebuild the container in VS Code, open the command palette and select\n+`Dev Containers: Rebuild and Reopen in Container`.\n+\n+## Further Reading\n+\n+* [Visual Studio Code Dev Containers Documentation](https://code.visualstudio.com/docs/remote/containers)\n+* If you want to propose changes to the official nightly Dev Container image, the repository is\n+  [nodejs/devcontainer](https://github.com/nodejs/devcontainer) which contains the nightly workflows and\n+  the Dockerfile.",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "```suggestion\n* If you want to propose changes to the official Node.js Nightly Dev Container image, feedback is welcome at  [nodejs/devcontainer](https://github.com/nodejs/devcontainer). There, you can find\n   the Dockerfile and automated nightly workflows.\n```",
+        "created_at": "2025-10-29T23:30:44Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475974879",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475974879"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475974879"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475974879/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 125,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:30:44Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348798537",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475971323",
+        "pull_request_review_id": 3396829683,
+        "id": 2475971323,
+        "node_id": "PRRC_kwDOAZ7xs86TlFL7",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+\n+### 2. Open the Repository in VS Code\n+\n+Launch VS Code and open the cloned Node.js repository.\n+\n+### 3. Start the Dev Container\n+\n+* Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the command palette.\n+* Type `Dev Containers: Reopen in Container` and select it.\n+* Select the appropriate Dev Container configuration from the drop down. The base configuration in this\n+  repository is `Node.js Dev Container` located in\n+  [`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json), which should be\n+  automatically detected by VS Code.\n+\n+### 4. Wait for the Container to Build\n+\n+VS Code will build the Dev Container based on the configuration file. This may take some time depending\n+on your internet connection and system performance.\n+\n+After the container is built, it will start automatically. By default it will run `git restore-mtime` to\n+restore the modification times of the files in the working directory, in order to keep the build cache valid,\n+and you will see something like this in the terminal.\n+\n+```text\n+Running the postCreateCommand from devcontainer.json...\n+\n+[10136 ms] Start: Run in container: /bin/sh -c git restore-mtime\n+```\n+\n+This may take a few seconds. Wait until it finishes before you open a new terminal.\n+\n+### 5. Build your changes\n+\n+Once the container is running, you can open a terminal in VS Code and run the build commands. By default, your\n+local repository is mounted inside a checkout in the container, so any changes you make will be reflected in\n+the container environment.\n+\n+In the Dev Container, the necessary dependencies are already installed. For better developer experience, the\n+build tool used in the Dev Container is `ninja`, instead of `make`. See\n+[Building Node.js with Ninja](./building-node-with-ninja.md) for more details on using `ninja` to build Node.js.\n+\n+```bash\n+./configure --ninja\n+ninja -C out/Release\n+```\n+\n+As long as your local checkout is not too different from the main branch in the nightly image, the build\n+should be incremental and fast.\n+\n+### 6. Leaving the Container\n+\n+When you're done working in the Dev Container, open the command palette again and select\n+`Dev Containers: Reopen Folder locally` to go back to your local development environment.\n+\n+## Customizing the Dev Container\n+\n+The default configuration is located in\n+[`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json) which pairs with the\n+official [Node.js Nightly Dev Container image](https://github.com/nodejs/devcontainer).\n+This is tracked in version control. You can create a personal configuration by creating a new\n+directory in `.devcontainer/` and adding a `devcontainer.json` file there (for example,\n+`.devcontainer/local/devcontainer.json`), and configure VS Code to use it.\n+\n+## Rebuilding the Dev Container\n+\n+Docker will cache the already downloaded Dev Container images. If you wish to pull a new nightly image, you can do\n+so by running the following command in the terminal on your host machine:\n+\n+```bash\n+docker pull nodejs/devcontainer:nightly\n+```\n+\n+The default configuration creates a volume to cache the build outputs between container restarts. If you wish to clear\n+the build cache, you can do so by deleting the volume named `node-devcontainer-cache`.\n+\n+```bash\n+docker volume rm node-devcontainer-cache\n+```\n+\n+To rebuild the container in VS Code, open the command palette and select",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "```suggestion\nTo rebuild the Dev Container in VS Code, open the command palette and select\n```",
+        "created_at": "2025-10-29T23:29:20Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475971323",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475971323"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475971323"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475971323/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 117,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:29:20Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348790918",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475970507",
+        "pull_request_review_id": 3396829683,
+        "id": 2475970507,
+        "node_id": "PRRC_kwDOAZ7xs86TlE_L",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+\n+### 2. Open the Repository in VS Code\n+\n+Launch VS Code and open the cloned Node.js repository.\n+\n+### 3. Start the Dev Container\n+\n+* Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the command palette.\n+* Type `Dev Containers: Reopen in Container` and select it.\n+* Select the appropriate Dev Container configuration from the drop down. The base configuration in this\n+  repository is `Node.js Dev Container` located in\n+  [`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json), which should be\n+  automatically detected by VS Code.\n+\n+### 4. Wait for the Container to Build\n+\n+VS Code will build the Dev Container based on the configuration file. This may take some time depending\n+on your internet connection and system performance.\n+\n+After the container is built, it will start automatically. By default it will run `git restore-mtime` to\n+restore the modification times of the files in the working directory, in order to keep the build cache valid,\n+and you will see something like this in the terminal.\n+\n+```text\n+Running the postCreateCommand from devcontainer.json...\n+\n+[10136 ms] Start: Run in container: /bin/sh -c git restore-mtime\n+```\n+\n+This may take a few seconds. Wait until it finishes before you open a new terminal.\n+\n+### 5. Build your changes\n+\n+Once the container is running, you can open a terminal in VS Code and run the build commands. By default, your\n+local repository is mounted inside a checkout in the container, so any changes you make will be reflected in\n+the container environment.\n+\n+In the Dev Container, the necessary dependencies are already installed. For better developer experience, the\n+build tool used in the Dev Container is `ninja`, instead of `make`. See\n+[Building Node.js with Ninja](./building-node-with-ninja.md) for more details on using `ninja` to build Node.js.\n+\n+```bash\n+./configure --ninja\n+ninja -C out/Release\n+```\n+\n+As long as your local checkout is not too different from the main branch in the nightly image, the build\n+should be incremental and fast.\n+\n+### 6. Leaving the Container\n+\n+When you're done working in the Dev Container, open the command palette again and select\n+`Dev Containers: Reopen Folder locally` to go back to your local development environment.\n+\n+## Customizing the Dev Container\n+\n+The default configuration is located in\n+[`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json) which pairs with the\n+official [Node.js Nightly Dev Container image](https://github.com/nodejs/devcontainer).\n+This is tracked in version control. You can create a personal configuration by creating a new\n+directory in `.devcontainer/` and adding a `devcontainer.json` file there (for example,\n+`.devcontainer/local/devcontainer.json`), and configure VS Code to use it.\n+\n+## Rebuilding the Dev Container\n+\n+Docker will cache the already downloaded Dev Container images. If you wish to pull a new nightly image, you can do\n+so by running the following command in the terminal on your host machine:\n+\n+```bash\n+docker pull nodejs/devcontainer:nightly\n+```\n+\n+The default configuration creates a volume to cache the build outputs between container restarts. If you wish to clear",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "```suggestion\nThe default configuration creates a volume to cache the build outputs between Dev Container restarts. If you wish to clear\n```",
+        "created_at": "2025-10-29T23:28:58Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475970507",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475970507"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475970507"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475970507/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 110,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:28:58Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348755523",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475966114",
+        "pull_request_review_id": 3396829683,
+        "id": 2475966114,
+        "node_id": "PRRC_kwDOAZ7xs86TlD6i",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+\n+### 2. Open the Repository in VS Code\n+\n+Launch VS Code and open the cloned Node.js repository.\n+\n+### 3. Start the Dev Container\n+\n+* Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the command palette.\n+* Type `Dev Containers: Reopen in Container` and select it.\n+* Select the appropriate Dev Container configuration from the drop down. The base configuration in this\n+  repository is `Node.js Dev Container` located in\n+  [`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json), which should be\n+  automatically detected by VS Code.\n+\n+### 4. Wait for the Container to Build\n+\n+VS Code will build the Dev Container based on the configuration file. This may take some time depending\n+on your internet connection and system performance.\n+\n+After the container is built, it will start automatically. By default it will run `git restore-mtime` to\n+restore the modification times of the files in the working directory, in order to keep the build cache valid,\n+and you will see something like this in the terminal.\n+\n+```text\n+Running the postCreateCommand from devcontainer.json...\n+\n+[10136 ms] Start: Run in container: /bin/sh -c git restore-mtime\n+```\n+\n+This may take a few seconds. Wait until it finishes before you open a new terminal.\n+\n+### 5. Build your changes\n+\n+Once the container is running, you can open a terminal in VS Code and run the build commands. By default, your\n+local repository is mounted inside a checkout in the container, so any changes you make will be reflected in\n+the container environment.\n+\n+In the Dev Container, the necessary dependencies are already installed. For better developer experience, the",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "```suggestion\nIn the Dev Container, the necessary dependencies are already installed and Node.js has already been \ncompiled, so a usable cache will exist. For better developer experience, the\n```",
+        "created_at": "2025-10-29T23:27:21Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475966114",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475966114"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475966114"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475966114/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 75,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:27:21Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348695961",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475957810",
+        "pull_request_review_id": 3396829683,
+        "id": 2475957810,
+        "node_id": "PRRC_kwDOAZ7xs86TlB4y",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+\n+### 2. Open the Repository in VS Code\n+\n+Launch VS Code and open the cloned Node.js repository.\n+\n+### 3. Start the Dev Container\n+\n+* Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the command palette.\n+* Type `Dev Containers: Reopen in Container` and select it.\n+* Select the appropriate Dev Container configuration from the drop down. The base configuration in this\n+  repository is `Node.js Dev Container` located in\n+  [`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json), which should be\n+  automatically detected by VS Code.\n+\n+### 4. Wait for the Container to Build\n+\n+VS Code will build the Dev Container based on the configuration file. This may take some time depending\n+on your internet connection and system performance.\n+\n+After the container is built, it will start automatically. By default it will run `git restore-mtime` to\n+restore the modification times of the files in the working directory, in order to keep the build cache valid,\n+and you will see something like this in the terminal.\n+\n+```text\n+Running the postCreateCommand from devcontainer.json...\n+\n+[10136 ms] Start: Run in container: /bin/sh -c git restore-mtime\n+```\n+\n+This may take a few seconds. Wait until it finishes before you open a new terminal.\n+\n+### 5. Build your changes\n+\n+Once the container is running, you can open a terminal in VS Code and run the build commands. By default, your\n+local repository is mounted inside a checkout in the container, so any changes you make will be reflected in\n+the container environment.",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "```suggestion\nOnce the Dev Container is running, you can open a terminal in VS Code and run the build commands. By default,\nyour local repository is mounted inside a checkout in the Dev Container, so any changes you make will be reflected\nin the container environment.\n```",
+        "created_at": "2025-10-29T23:24:34Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475957810",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475957810"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475957810"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475957810/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 73,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:24:34Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348669264",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475953585",
+        "pull_request_review_id": 3396829683,
+        "id": 2475953585,
+        "node_id": "PRRC_kwDOAZ7xs86TlA2x",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+\n+### 2. Open the Repository in VS Code\n+\n+Launch VS Code and open the cloned Node.js repository.\n+\n+### 3. Start the Dev Container\n+\n+* Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the command palette.\n+* Type `Dev Containers: Reopen in Container` and select it.\n+* Select the appropriate Dev Container configuration from the drop down. The base configuration in this\n+  repository is `Node.js Dev Container` located in\n+  [`.devcontainer/base/devcontainer.json`](../../.devcontainer/base/devcontainer.json), which should be\n+  automatically detected by VS Code.\n+\n+### 4. Wait for the Container to Build\n+\n+VS Code will build the Dev Container based on the configuration file. This may take some time depending\n+on your internet connection and system performance.\n+\n+After the container is built, it will start automatically. By default it will run `git restore-mtime` to",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "Just for consistency:\n\n```suggestion\nAfter the Dev Container is built, it will start automatically. By default it will run `git restore-mtime` to\n```",
+        "created_at": "2025-10-29T23:23:16Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475953585",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475953585"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475953585"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475953585/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 57,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:23:16Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348668017",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475953419",
+        "pull_request_review_id": 3396829683,
+        "id": 2475953419,
+        "node_id": "PRRC_kwDOAZ7xs86TlA0L",
+        "diff_hunk": "@@ -0,0 +1,125 @@\n+# Developing Node.js using Dev Containers\n+\n+Node.js publishes a [nightly image on DockerHub](https://hub.docker.com/r/nodejs/devcontainer) for\n+[Dev Containers](https://containers.dev/) that can be used to spin up a\n+development container that comes with pre-installed build dependencies and pre-genreated build cache.\n+\n+When you need to test a few changes in the main branch and do not need\n+to change the V8 headers (which is rare), using the nightly image will allow you to compile your\n+changes from a fresh checkout quickly without having to compile the entire codebase, especially V8,\n+from scratch.\n+\n+The Dev Container also allows you to test your changes in a different operating system, and to test\n+third-party code from bug reports safely with your work-in-progress Node.js branches in an isolated environment.\n+\n+There are many command line tools, IDEs and services that [support Dev Containers](https://containers.dev/supporting).\n+Among them, [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is a very popuplar option.\n+This guide will walk you through the steps to set up a Dev Container for Node.js development using VS Code.\n+You should be able to use the same [`nodejs/devcontainer:nightly` image](https://hub.docker.com/r/nodejs/devcontainer)\n+in other tools and services using generally similar steps.\n+\n+## Prerequisites\n+\n+Before you begin, ensure you have the following installed on your machine:\n+\n+* [Docker](https://www.docker.com/get-started)\n+* [Visual Studio Code](https://code.visualstudio.com/)\n+* [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)\n+\n+## Setting Up the Dev Container\n+\n+### 1. Clone the Node.js Repository\n+\n+If you haven't already, clone the Node.js repository to your local machine.\n+\n+```bash\n+git clone https://github.com/nodejs/node.git\n+```\n+",
+        "path": "doc/contributing/using-devcontainer.md",
+        "commit_id": "9ceafde3433e13e40244ee9eea26b848d511723d",
+        "original_commit_id": "71f5751b6ef4d30dc8955c17e3ede00c9c38342a",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "Should we also document how to use a fork for this section, since that's probably a common workflow people reading this would be using?",
+        "created_at": "2025-10-29T23:23:13Z",
+        "updated_at": "2025-10-29T23:31:07Z",
+        "html_url": "https://github.com/nodejs/node/pull/60472#discussion_r2475953419",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/2475953419"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/60472#discussion_r2475953419"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/60472"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/2475953419/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 38,
+        "position": 38,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/60472",
+        "id": 2957058503,
+        "number": 60472,
+        "head": {
+          "ref": "devcontainer",
+          "sha": "9ceafde3433e13e40244ee9eea26b848d511723d",
+          "repo": {
+            "id": 75291879,
+            "url": "https://api.github.com/repos/joyeecheung/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "515ca295fb78e2e335aced28c23e3551d17ae9dc",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:23:13Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4348421537",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/issues/18",
+        "repository_url": "https://api.github.com/repos/nodejs/devcontainer",
+        "labels_url": "https://api.github.com/repos/nodejs/devcontainer/issues/18/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/devcontainer/issues/18/comments",
+        "events_url": "https://api.github.com/repos/nodejs/devcontainer/issues/18/events",
+        "html_url": "https://github.com/nodejs/devcontainer/issues/18",
+        "id": 3567255664,
+        "node_id": "I_kwDOF9DIM87UoABw",
+        "number": 18,
+        "title": "Re-use the Nix env that's being tested on nodejs/node",
+        "user": {
+          "login": "aduh95",
+          "id": 14309773,
+          "node_id": "MDQ6VXNlcjE0MzA5Nzcz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14309773?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/aduh95",
+          "html_url": "https://github.com/aduh95",
+          "followers_url": "https://api.github.com/users/aduh95/followers",
+          "following_url": "https://api.github.com/users/aduh95/following{/other_user}",
+          "gists_url": "https://api.github.com/users/aduh95/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/aduh95/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/aduh95/subscriptions",
+          "organizations_url": "https://api.github.com/users/aduh95/orgs",
+          "repos_url": "https://api.github.com/users/aduh95/repos",
+          "events_url": "https://api.github.com/users/aduh95/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/aduh95/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2025-10-29T18:08:55Z",
+        "updated_at": "2025-10-29T23:56:53Z",
+        "closed_at": null,
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "There's a Nix integration on nodejs/node that's tested on every commit, we could take advantage of it instead of maintaining a separate dev env. By its nature of being declarative and claiming 100% reproducibility, both Nix and devcontainer are tools that can be used to provide a \"blessed\" dev env, so let's try to make them converge to a single one.\n\nThat could open the door to using the build artifacts from this repo to speed up the linux builds on nodejs/node.\n\nThe idea comes from the discussion with @joyeecheung in https://github.com/nodejs/node/pull/60472#discussion_r2471355819.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/issues/18/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/devcontainer/issues/18/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/issues/comments/3464849347",
+        "html_url": "https://github.com/nodejs/devcontainer/issues/18#issuecomment-3464849347",
+        "issue_url": "https://api.github.com/repos/nodejs/devcontainer/issues/18",
+        "id": 3464849347,
+        "node_id": "IC_kwDOF9DIM87OhWfD",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2025-10-29T23:11:24Z",
+        "updated_at": "2025-10-29T23:11:24Z",
+        "body": "Not opposed to convergence. I'm curious what the goals of the Nix environment are and what your thoughts on how merging them would be implemented?",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/issues/comments/3464849347/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-29T23:11:24Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4242889613",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3377381852,
+        "node_id": "PRR_kwDOF9DIM87JTsHc",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "c3106fd070ef3d2ac35565fdbb9e0e7effab8758",
+        "submitted_at": "2025-10-24T15:03:51Z",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/15#pullrequestreview-3377381852",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/15",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/15#pullrequestreview-3377381852"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/15"
+          }
+        },
+        "updated_at": "2025-10-24T15:03:51Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/15",
+        "id": 2938469171,
+        "number": 15,
+        "head": {
+          "ref": "fix-build-cache",
+          "sha": "c3106fd070ef3d2ac35565fdbb9e0e7effab8758",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-10-24T15:03:53Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4242866464",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3377376357,
+        "node_id": "PRR_kwDOF9DIM87JTqxl",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "bd0c0c663666af572d14f6e2ee42230294c09022",
+        "submitted_at": "2025-10-24T15:02:51Z",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3377376357",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3377376357"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "updated_at": "2025-10-24T15:02:51Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-10-24T15:02:53Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4242863963",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/issues/14",
+        "repository_url": "https://api.github.com/repos/nodejs/devcontainer",
+        "labels_url": "https://api.github.com/repos/nodejs/devcontainer/issues/14/labels{/name}",
+        "comments_url": "https://api.github.com/repos/nodejs/devcontainer/issues/14/comments",
+        "events_url": "https://api.github.com/repos/nodejs/devcontainer/issues/14/events",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14",
+        "id": 3526563528,
+        "node_id": "PR_kwDOF9DIM86uVUF-",
+        "number": 14,
+        "title": "Split build workflows for different platforms",
+        "user": {
+          "login": "joyeecheung",
+          "id": 4299420,
+          "node_id": "MDQ6VXNlcjQyOTk0MjA=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/4299420?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joyeecheung",
+          "html_url": "https://github.com/joyeecheung",
+          "followers_url": "https://api.github.com/users/joyeecheung/followers",
+          "following_url": "https://api.github.com/users/joyeecheung/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joyeecheung/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joyeecheung/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joyeecheung/subscriptions",
+          "organizations_url": "https://api.github.com/users/joyeecheung/orgs",
+          "repos_url": "https://api.github.com/users/joyeecheung/repos",
+          "events_url": "https://api.github.com/users/joyeecheung/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joyeecheung/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2025-10-17T15:21:53Z",
+        "updated_at": "2025-10-24T15:09:08Z",
+        "closed_at": "2025-10-24T15:09:08Z",
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+          "html_url": "https://github.com/nodejs/devcontainer/pull/14",
+          "diff_url": "https://github.com/nodejs/devcontainer/pull/14.diff",
+          "patch_url": "https://github.com/nodejs/devcontainer/pull/14.patch",
+          "merged_at": "2025-10-24T15:09:08Z"
+        },
+        "body": "Using one workflow to build for multiple platforms can lead to timeout errors if one of them takes too long (especially when there's emulation), and no images would be published even when only one of them fails.\r\n\r\nThis split the build workflows into different files based on the platform that publish the images to platform-specific nightly channels, and add a new workflow to merge the platform-specific nightlies into one nightly channel, so that\r\nwhen one platform fails to build, others can still be updated. This also allows us to build the arm64 images without emulation which would be less likely to time out.",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/issues/14/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/nodejs/devcontainer/issues/14/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/issues/comments/3443629979",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#issuecomment-3443629979",
+        "issue_url": "https://api.github.com/repos/nodejs/devcontainer/issues/14",
+        "id": 3443629979,
+        "node_id": "IC_kwDOF9DIM87NQZ-b",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2025-10-24T15:02:44Z",
+        "updated_at": "2025-10-24T15:02:44Z",
+        "body": "Looks good to me other than https://github.com/nodejs/devcontainer/pull/14#discussion_r2460930121 but will approve on the case that there's no change needed ✅ ",
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/issues/comments/3443629979/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-24T15:02:44Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4242834152",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3377369330,
+        "node_id": "PRR_kwDOF9DIM87JTpDy",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "submitted_at": "2025-10-24T15:01:28Z",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3377369330",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3377369330"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "updated_at": "2025-10-24T15:01:28Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-10-24T15:01:29Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4242833800",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2460930121",
+        "pull_request_review_id": 3377369330,
+        "id": 2460930121,
+        "node_id": "PRRC_kwDOF9DIM86SrtBJ",
+        "diff_hunk": "@@ -0,0 +1,47 @@\n+name: Merge images\n+\n+on:\n+  workflow_run:  # Fires when any of the specified workflows complete\n+    workflows: [\"Build and Publish Linux ARM64 Image\", \"Build and Publish Linux AMD64 Image\"]\n+    types: [completed]\n+    branches: [main]\n+\n+env:\n+  IMAGE: nodejs/devcontainer\n+  REGISTRY: docker.io\n+\n+concurrency:  # ensure only one merge runs at a time\n+  group: merge-manifest\n+  cancel-in-progress: false\n+\n+jobs:\n+  merge:\n+    if: ${{ github.event.workflow_run.conclusion == 'success' }}\n+    runs-on: ubuntu-latest\n+    steps:\n+      - name: Login to DockerHub\n+        uses: docker/login-action@v3\n+        with: # these are defined in the GitHub Secrets UI\n+          username: ${{ secrets.DOCKERHUB_USERNAME }}\n+          password: ${{ secrets.DOCKERHUB_TOKEN }}\n+\n+      - name: Set up Docker Buildx\n+        uses: docker/setup-buildx-action@v3\n+\n+      # Merge the multiple architecture-specific images into a single multi-arch image.\n+      # If images for other architectures do not exist in the registry yet, this step will fail.\n+      # It will only succeed when at least one image for each architecture has been built and pushed.\n+      # If images for other architectures are being built and the ones in the registry\n+      # are old, it only updates the nightly tag for the architecture that triggered this\n+      # workflow. When images for other architectures are built successfully later, they will\n+      # trigger this workflow again and merge the updated images.\n+      - name: Create multi-arch manifest\n+        run: |\n+          docker buildx imagetools create \\\n+            -t ${REGISTRY}/${IMAGE}:nightly \\\n+            ${REGISTRY}/${IMAGE}:nightly-linux-amd64 \\\n+            ${REGISTRY}/${IMAGE}:nightly-linux-arm64\n+\n+      - name: Verify multi-arch manifest\n+        run: |\n+          docker buildx imagetools inspect ${REGISTRY}/${IMAGE}:nightly",
+        "path": ".github/workflows/docker-merge.yml",
+        "commit_id": "bd0c0c663666af572d14f6e2ee42230294c09022",
+        "original_commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "If it's getting published with the `docker buildx imagetools create` step, does it still make sense to `docker buildx imagetools inspect` once that's completed? 🤔 ",
+        "created_at": "2025-10-24T15:01:28Z",
+        "updated_at": "2025-10-24T15:01:29Z",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#discussion_r2460930121",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2460930121"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#discussion_r2460930121"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2460930121/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "in_reply_to_id": 2452070441,
+        "original_position": 47,
+        "position": 46,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-24T15:01:28Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4188900336",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3365765445,
+        "node_id": "PRR_kwDOF9DIM87InYFF",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "submitted_at": "2025-10-22T13:16:27Z",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3365765445",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3365765445"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "updated_at": "2025-10-22T13:16:27Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-10-22T13:16:29Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4188899586",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2452070441",
+        "pull_request_review_id": 3365765445,
+        "id": 2452070441,
+        "node_id": "PRRC_kwDOF9DIM86SJ6Ap",
+        "diff_hunk": "@@ -0,0 +1,47 @@\n+name: Merge images\n+\n+on:\n+  workflow_run:  # Fires when any of the specified workflows complete\n+    workflows: [\"Build and Publish Linux ARM64 Image\", \"Build and Publish Linux AMD64 Image\"]\n+    types: [completed]\n+    branches: [main]\n+\n+env:\n+  IMAGE: nodejs/devcontainer\n+  REGISTRY: docker.io\n+\n+concurrency:  # ensure only one merge runs at a time\n+  group: merge-manifest\n+  cancel-in-progress: false\n+\n+jobs:\n+  merge:\n+    if: ${{ github.event.workflow_run.conclusion == 'success' }}\n+    runs-on: ubuntu-latest\n+    steps:\n+      - name: Login to DockerHub\n+        uses: docker/login-action@v3\n+        with: # these are defined in the GitHub Secrets UI\n+          username: ${{ secrets.DOCKERHUB_USERNAME }}\n+          password: ${{ secrets.DOCKERHUB_TOKEN }}\n+\n+      - name: Set up Docker Buildx\n+        uses: docker/setup-buildx-action@v3\n+\n+      # Merge the multiple architecture-specific images into a single multi-arch image.\n+      # If images for other architectures do not exist in the registry yet, this step will fail.\n+      # It will only succeed when at least one image for each architecture has been built and pushed.\n+      # If images for other architectures are being built and the ones in the registry\n+      # are old, it only updates the nightly tag for the architecture that triggered this\n+      # workflow. When images for other architectures are built successfully later, they will\n+      # trigger this workflow again and merge the updated images.\n+      - name: Create multi-arch manifest\n+        run: |\n+          docker buildx imagetools create \\\n+            -t ${REGISTRY}/${IMAGE}:nightly \\\n+            ${REGISTRY}/${IMAGE}:nightly-linux-amd64 \\\n+            ${REGISTRY}/${IMAGE}:nightly-linux-arm64\n+\n+      - name: Verify multi-arch manifest\n+        run: |\n+          docker buildx imagetools inspect ${REGISTRY}/${IMAGE}:nightly",
+        "path": ".github/workflows/docker-merge.yml",
+        "commit_id": "bd0c0c663666af572d14f6e2ee42230294c09022",
+        "original_commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "Post-merge, should we be publishing this multi-arch image?",
+        "created_at": "2025-10-22T13:16:27Z",
+        "updated_at": "2025-10-22T13:16:32Z",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#discussion_r2452070441",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2452070441"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#discussion_r2452070441"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2452070441/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 47,
+        "position": 46,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-22T13:16:27Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4188785099",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 3365740850,
+        "node_id": "PRR_kwDOF9DIM87InSEy",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "submitted_at": "2025-10-22T13:11:41Z",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3365740850",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#pullrequestreview-3365740850"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "updated_at": "2025-10-22T13:11:41Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2025-10-22T13:11:43Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "4188784365",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2452052248",
+        "pull_request_review_id": 3365740850,
+        "id": 2452052248,
+        "node_id": "PRRC_kwDOF9DIM86SJ1kY",
+        "diff_hunk": "@@ -0,0 +1,27 @@\n+name: Build and Publish Linux AMD64 Image\n+\n+on:\n+  workflow_dispatch: # allows us to trigger runs manually in the GitHub UI\n+  schedule:\n+    - cron:  '0 0 * * *' # runs nightly\n+\n+jobs:\n+  docker:\n+    if: ${{ github.ref == 'refs/heads/main' }}\n+    runs-on: ubuntu-latest",
+        "path": ".github/workflows/docker-build-and-publish-linux-amd64.yml",
+        "commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "original_commit_id": "0652562ba8420f9aa3dae620d58cbb3f43c522a4",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "since we're pinning to `ubuntu-24.04-arm64` for arm64, maybe we pin to `ubuntu-24.04` for consistency?\r\n\r\n```suggestion\r\n    runs-on: ubuntu-24.04\r\n```",
+        "created_at": "2025-10-22T13:11:41Z",
+        "updated_at": "2025-10-22T13:11:41Z",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/14#discussion_r2452052248",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2452052248"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/14#discussion_r2452052248"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/14"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/comments/2452052248/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 11,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/14",
+        "id": 2924822910,
+        "number": 14,
+        "head": {
+          "ref": "build-and-merge",
+          "sha": "bd0c0c663666af572d14f6e2ee42230294c09022",
+          "repo": {
+            "id": 1060379297,
+            "url": "https://api.github.com/repos/joyeecheung/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f66f0e4433f3472f0dca0c65f389f4efeab36c0",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2025-10-22T13:11:41Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  }
+]
