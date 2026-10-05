@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "13129391693",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4910617115,
+        "node_id": "PRR_kwDOAZ7xs88AAAABJLISGw",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "9e7a3132e051b0f7c97592e06c9c6589b85284bc",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/65217#pullrequestreview-4910617115",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/65217",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/65217#pullrequestreview-4910617115"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/65217"
+          }
+        },
+        "submitted_at": "2026-08-11T20:47:51Z",
+        "updated_at": "2026-08-11T20:47:51Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/65217",
+        "id": 4254907083,
+        "number": 65217,
+        "head": {
+          "ref": "escape-windows-env-var",
+          "sha": "9e7a3132e051b0f7c97592e06c9c6589b85284bc",
+          "repo": {
+            "id": 127020991,
+            "url": "https://api.github.com/repos/aduh95/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "673cdef7d9ea5cb41b26b2a48e710fab03e116b6",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-08-11T20:47:53Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "13011387162",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1305907399,
+      "name": "dcousineau/buttery",
+      "url": "https://api.github.com/repos/dcousineau/buttery"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-08-09T20:45:25Z"
+  },
+  {
+    "id": "12725132605",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 399558707,
+      "name": "nodejs/devcontainer",
+      "url": "https://api.github.com/repos/nodejs/devcontainer"
+    },
+    "payload": {
+      "review": {
+        "id": 4848937748,
+        "node_id": "PRR_kwDOF9DIM88AAAABIQTrFA",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "93eee7bc86add1af61bbd26b02759392da8c703b",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/devcontainer/pull/29#pullrequestreview-4848937748",
+        "pull_request_url": "https://api.github.com/repos/nodejs/devcontainer/pulls/29",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/devcontainer/pull/29#pullrequestreview-4848937748"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/devcontainer/pulls/29"
+          }
+        },
+        "submitted_at": "2026-08-03T22:07:31Z",
+        "updated_at": "2026-08-03T22:07:31Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/devcontainer/pulls/29",
+        "id": 4180898221,
+        "number": 29,
+        "head": {
+          "ref": "fix-git-restore-mtime",
+          "sha": "93eee7bc86add1af61bbd26b02759392da8c703b",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "ca4b8ad97494c34843027185421446c073e866c8",
+          "repo": {
+            "id": 399558707,
+            "url": "https://api.github.com/repos/nodejs/devcontainer",
+            "name": "devcontainer"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-08-03T22:07:33Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12701374676",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1157248994,
+      "name": "gamesgamesgamesgamesgames/happyview",
+      "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/81",
+        "repository_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview",
+        "labels_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/81/labels{/name}",
+        "comments_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/81/comments",
+        "events_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/81/events",
+        "html_url": "https://github.com/gamesgamesgamesgamesgames/happyview/issues/81",
+        "id": 5050618002,
+        "node_id": "I_kwDORPo34s8AAAABLQpQkg",
+        "number": 81,
+        "title": "Dead link in onboarding",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 10202516406,
+            "node_id": "LA_kwDORPo34s8AAAACYB4Ltg",
+            "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/labels/documentation",
+            "name": "documentation",
+            "color": "0075ca",
+            "default": true,
+            "description": "Improvements or additions to documentation"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "trezy",
+            "id": 442980,
+            "node_id": "MDQ6VXNlcjQ0Mjk4MA==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/442980?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/trezy",
+            "html_url": "https://github.com/trezy",
+            "followers_url": "https://api.github.com/users/trezy/followers",
+            "following_url": "https://api.github.com/users/trezy/following{/other_user}",
+            "gists_url": "https://api.github.com/users/trezy/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/trezy/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/trezy/subscriptions",
+            "organizations_url": "https://api.github.com/users/trezy/orgs",
+            "repos_url": "https://api.github.com/users/trezy/repos",
+            "events_url": "https://api.github.com/users/trezy/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/trezy/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-08-03T13:59:22Z",
+        "updated_at": "2026-08-03T14:42:00Z",
+        "closed_at": null,
+        "assignee": {
+          "login": "trezy",
+          "id": 442980,
+          "node_id": "MDQ6VXNlcjQ0Mjk4MA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/442980?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/trezy",
+          "html_url": "https://github.com/trezy",
+          "followers_url": "https://api.github.com/users/trezy/followers",
+          "following_url": "https://api.github.com/users/trezy/following{/other_user}",
+          "gists_url": "https://api.github.com/users/trezy/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/trezy/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/trezy/subscriptions",
+          "organizations_url": "https://api.github.com/users/trezy/orgs",
+          "repos_url": "https://api.github.com/users/trezy/repos",
+          "events_url": "https://api.github.com/users/trezy/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/trezy/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "issue_field_values": [],
+        "type": {
+          "id": 28305052,
+          "node_id": "IT_kwDODXsAaM4Br-ac",
+          "name": "Bug",
+          "description": "An unexpected problem or behavior",
+          "color": "red",
+          "created_at": "2025-08-12T18:38:32Z",
+          "updated_at": "2025-08-12T18:38:32Z",
+          "is_enabled": true
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "Currently the \"what does this mean?' link here does nothing other than redirect to the dashboard\n\n<img width=\"863\" height=\"129\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/441481db-063f-43f5-b533-c5271ae18055\" />",
+        "reactions": {
+          "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/81/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/81/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null,
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-08-03T13:59:24Z",
+    "org": {
+      "id": 226164840,
+      "login": "gamesgamesgamesgamesgames",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/gamesgamesgamesgamesgames",
+      "avatar_url": "https://avatars.githubusercontent.com/u/226164840?"
+    }
+  },
+  {
+    "id": "12693271912",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4843462733,
+        "node_id": "PRR_kwDOAZ7xs88AAAABILFgTQ",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "9a658d91cdc4cc7807e55552418f242154132fb9",
+        "state": "commented",
+        "html_url": "https://github.com/nodejs/node/pull/64955#pullrequestreview-4843462733",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/64955",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/64955#pullrequestreview-4843462733"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/64955"
+          }
+        },
+        "submitted_at": "2026-08-03T11:21:28Z",
+        "updated_at": "2026-08-03T11:21:28Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/64955",
+        "id": 4188093634,
+        "number": 64955,
+        "head": {
+          "ref": "util-styletext-color-depth",
+          "sha": "fdc3a725cbc557f693a172388bb3f73995290c67",
+          "repo": {
+            "id": 1320018373,
+            "url": "https://api.github.com/repos/Tobbe/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "93b1088401399ac4c975ccc93944674b388ba80d",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-08-03T11:21:30Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12693262259",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/3703434131",
+        "pull_request_review_id": 4843462733,
+        "id": 3703434131,
+        "node_id": "PRRC_kwDOAZ7xs87cveuT",
+        "diff_hunk": "@@ -217,14 +262,114 @@ describe('util.styleText hex color support', () => {\n             ...originalEnv,\n             ...testCase.env,\n           };\n+          const expected = typeof testCase.expected === 'function' ?\n+            testCase.expected() :\n+            testCase.expected;\n           const output = util.styleText('#ffcc00', 'test', { stream: writeStream });\n-          assert.strictEqual(output, testCase.expected);\n+          assert.strictEqual(output, expected);\n+          // Combining the hex color with another format applies the same depth.\n+          const combined = util.styleText(['bold', '#ffcc00'], 'test', { stream: writeStream });\n+          assert.strictEqual(\n+            combined,\n+            expected === noChange ? noChange : `\\u001b[1m${expected}\\u001b[22m`,\n+          );\n           process.env = originalEnv;\n         });\n       }\n     }\n   });\n \n+  describe('color depth downgrade without stream validation', () => {\n+    const originalEnv = { ...process.env };\n+\n+    function styled(format, forceColor) {\n+      process.env = { ...originalEnv };\n+      if (forceColor === undefined) {\n+        delete process.env.FORCE_COLOR;",
+        "path": "test/parallel/test-util-styletext-hex.js",
+        "commit_id": "9a658d91cdc4cc7807e55552418f242154132fb9",
+        "original_commit_id": "9a658d91cdc4cc7807e55552418f242154132fb9",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "as as my previous comment about `delete` usage.",
+        "created_at": "2026-08-03T11:21:16Z",
+        "updated_at": "2026-08-03T11:21:28Z",
+        "html_url": "https://github.com/nodejs/node/pull/64955#discussion_r3703434131",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/64955",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/3703434131"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/64955#discussion_r3703434131"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/64955"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/3703434131/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 133,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/64955",
+        "id": 4188093634,
+        "number": 64955,
+        "head": {
+          "ref": "util-styletext-color-depth",
+          "sha": "fdc3a725cbc557f693a172388bb3f73995290c67",
+          "repo": {
+            "id": 1320018373,
+            "url": "https://api.github.com/repos/Tobbe/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "93b1088401399ac4c975ccc93944674b388ba80d",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-08-03T11:21:16Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12693241600",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/comments/3703431470",
+        "pull_request_review_id": 4843462733,
+        "id": 3703431470,
+        "node_id": "PRRC_kwDOAZ7xs87cveEu",
+        "diff_hunk": "@@ -6,6 +6,10 @@ const { describe, it } = require('node:test');\n const util = require('node:util');\n const { WriteStream } = require('node:tty');\n \n+// Hex colors are downgraded to the color depth reported by `FORCE_COLOR`, so\n+// make sure the environment running the test does not set it.\n+delete process.env.FORCE_COLOR;",
+        "path": "test/parallel/test-util-styletext-hex.js",
+        "commit_id": "9a658d91cdc4cc7807e55552418f242154132fb9",
+        "original_commit_id": "9a658d91cdc4cc7807e55552418f242154132fb9",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "happy to be wrong on this but in my own practice I generally avoid `delete` as the education I've received has been that it's bad to use and that's been reinforced by code style tooling I've always used. \n\nIt doesn't seem like we use it [anywhere else in the codebase](https://github.com/search?q=repo%3Anodejs%2Fnode%20delete&type=code) in this way. I don't have a direct recommendation on what to replace it with, but I'm cautious to see us introduce it as a precedent with this PR.",
+        "created_at": "2026-08-03T11:20:49Z",
+        "updated_at": "2026-08-03T11:21:28Z",
+        "html_url": "https://github.com/nodejs/node/pull/64955#discussion_r3703431470",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/64955",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/comments/3703431470"
+          },
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/64955#discussion_r3703431470"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/64955"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/nodejs/node/pulls/comments/3703431470/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "original_position": 6,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/64955",
+        "id": 4188093634,
+        "number": 64955,
+        "head": {
+          "ref": "util-styletext-color-depth",
+          "sha": "fdc3a725cbc557f693a172388bb3f73995290c67",
+          "repo": {
+            "id": 1320018373,
+            "url": "https://api.github.com/repos/Tobbe/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "93b1088401399ac4c975ccc93944674b388ba80d",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-08-03T11:20:49Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12692891350",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4843410742,
+        "node_id": "PRR_kwDOAZ7xs88AAAABILCVNg",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "bb4dd7d631d4b41fd6084aca7c474479ca388e94",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/64976#pullrequestreview-4843410742",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/64976",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/64976#pullrequestreview-4843410742"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/64976"
+          }
+        },
+        "submitted_at": "2026-08-03T11:13:05Z",
+        "updated_at": "2026-08-03T11:13:05Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/64976",
+        "id": 4193008647,
+        "number": 64976,
+        "head": {
+          "ref": "doc-pbkdf2Sync-arrayBuffer1",
+          "sha": "bb4dd7d631d4b41fd6084aca7c474479ca388e94",
+          "repo": {
+            "id": 1316857067,
+            "url": "https://api.github.com/repos/kyungrae2002/node.js",
+            "name": "node.js"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "7e439828de88f76d1d91605f9d433ba747a5ba23",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-08-03T11:13:06Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12692830581",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4843401853,
+        "node_id": "PRR_kwDOAZ7xs88AAAABILByfQ",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "c76eb6eff3f0c94a95a3e250531210bc5304e7e6",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/64957#pullrequestreview-4843401853",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/64957",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/64957#pullrequestreview-4843401853"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/64957"
+          }
+        },
+        "submitted_at": "2026-08-03T11:11:47Z",
+        "updated_at": "2026-08-03T11:11:47Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/64957",
+        "id": 4188218258,
+        "number": 64957,
+        "head": {
+          "ref": "doc-api-dgram-typo-fix",
+          "sha": "c76eb6eff3f0c94a95a3e250531210bc5304e7e6",
+          "repo": {
+            "id": 1268090969,
+            "url": "https://api.github.com/repos/Rawal27/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "93b1088401399ac4c975ccc93944674b388ba80d",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-08-03T11:11:49Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12692770105",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 27193779,
+      "name": "nodejs/node",
+      "url": "https://api.github.com/repos/nodejs/node"
+    },
+    "payload": {
+      "review": {
+        "id": 4843393113,
+        "node_id": "PRR_kwDOAZ7xs88AAAABILBQWQ",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "568b95ab9f597f3417be7c01ae41618f1ecf92b9",
+        "state": "approved",
+        "html_url": "https://github.com/nodejs/node/pull/64961#pullrequestreview-4843393113",
+        "pull_request_url": "https://api.github.com/repos/nodejs/node/pulls/64961",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nodejs/node/pull/64961#pullrequestreview-4843393113"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/nodejs/node/pulls/64961"
+          }
+        },
+        "submitted_at": "2026-08-03T11:10:31Z",
+        "updated_at": "2026-08-03T11:10:31Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/nodejs/node/pulls/64961",
+        "id": 4188878753,
+        "number": 64961,
+        "head": {
+          "ref": "auto-update-truetools",
+          "sha": "568b95ab9f597f3417be7c01ae41618f1ecf92b9",
+          "repo": {
+            "id": 127020991,
+            "url": "https://api.github.com/repos/aduh95/node",
+            "name": "node"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "c55eb4acb18e2a3b7f996b2253723f0936bde263",
+          "repo": {
+            "id": 27193779,
+            "url": "https://api.github.com/repos/nodejs/node",
+            "name": "node"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-08-03T11:10:33Z",
+    "org": {
+      "id": 9950313,
+      "login": "nodejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/nodejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?"
+    }
+  },
+  {
+    "id": "12605145869",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 1157248994,
+      "name": "gamesgamesgamesgamesgames/happyview",
+      "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/78",
+        "repository_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview",
+        "labels_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/78/labels{/name}",
+        "comments_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/78/comments",
+        "events_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/78/events",
+        "html_url": "https://github.com/gamesgamesgamesgamesgames/happyview/issues/78",
+        "id": 5032357721,
+        "node_id": "I_kwDORPo34s8AAAABK_OvWQ",
+        "number": 78,
+        "title": "Mass deletion of lexicon records tanks the app",
+        "user": {
+          "login": "bnb",
+          "id": 502396,
+          "node_id": "MDQ6VXNlcjUwMjM5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/502396?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bnb",
+          "html_url": "https://github.com/bnb",
+          "followers_url": "https://api.github.com/users/bnb/followers",
+          "following_url": "https://api.github.com/users/bnb/following{/other_user}",
+          "gists_url": "https://api.github.com/users/bnb/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bnb/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/bnb/subscriptions",
+          "organizations_url": "https://api.github.com/users/bnb/orgs",
+          "repos_url": "https://api.github.com/users/bnb/repos",
+          "events_url": "https://api.github.com/users/bnb/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/bnb/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "trezy",
+            "id": 442980,
+            "node_id": "MDQ6VXNlcjQ0Mjk4MA==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/442980?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/trezy",
+            "html_url": "https://github.com/trezy",
+            "followers_url": "https://api.github.com/users/trezy/followers",
+            "following_url": "https://api.github.com/users/trezy/following{/other_user}",
+            "gists_url": "https://api.github.com/users/trezy/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/trezy/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/trezy/subscriptions",
+            "organizations_url": "https://api.github.com/users/trezy/orgs",
+            "repos_url": "https://api.github.com/users/trezy/repos",
+            "events_url": "https://api.github.com/users/trezy/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/trezy/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2026-07-31T18:31:41Z",
+        "updated_at": "2026-08-07T16:06:40Z",
+        "closed_at": "2026-08-07T16:06:38Z",
+        "assignee": {
+          "login": "trezy",
+          "id": 442980,
+          "node_id": "MDQ6VXNlcjQ0Mjk4MA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/442980?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/trezy",
+          "html_url": "https://github.com/trezy",
+          "followers_url": "https://api.github.com/users/trezy/followers",
+          "following_url": "https://api.github.com/users/trezy/following{/other_user}",
+          "gists_url": "https://api.github.com/users/trezy/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/trezy/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/trezy/subscriptions",
+          "organizations_url": "https://api.github.com/users/trezy/orgs",
+          "repos_url": "https://api.github.com/users/trezy/repos",
+          "events_url": "https://api.github.com/users/trezy/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/trezy/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "issue_field_values": [],
+        "type": {
+          "id": 28305052,
+          "node_id": "IT_kwDODXsAaM4Br-ac",
+          "name": "Bug",
+          "description": "An unexpected problem or behavior",
+          "color": "red",
+          "created_at": "2025-08-12T18:38:32Z",
+          "updated_at": "2025-08-12T18:38:32Z",
+          "is_enabled": true
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "In trying to cull down my dataset, a few times I've attempted to delete... a lot of records.\n\nEvery time I've done this, the app soft crashes. On a reload, it _slowly_ loads data - response times go up to around 30s and memory starts to approach 8gb which AFAIK is the cap of a Node.js process in more modern Node.js versions thanks to V8 memory management.\n\nThe most recent way I've situation I encountered this under was with `site.standard.document`, trying to delete what seems like a lot of records that I backfilled at one point. When I delete all records, the modal processes for a bit then _seemingly_ silently fails and allows me to click the button again. Every time this has happened, I've clicked the button again and then have refreshed the app. At that point, it loads... partially as it seems to be recovering from silent failures.\n\nHere's perf stats from my HappyView instance while this was happening:\n\n<img width=\"786\" height=\"723\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/03d752dd-f131-4d67-8b11-f123af8dd505\" />\n\n<img width=\"787\" height=\"404\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1d41098e-8931-4e83-ab56-0efed40fad9c\" />",
+        "reactions": {
+          "url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/78/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/gamesgamesgamesgamesgames/happyview/issues/78/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-07-31T18:31:43Z",
+    "org": {
+      "id": 226164840,
+      "login": "gamesgamesgamesgamesgames",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/gamesgamesgamesgamesgames",
+      "avatar_url": "https://avatars.githubusercontent.com/u/226164840?"
+    }
+  },
+  {
+    "id": "16140783380",
+    "type": "PushEvent",
+    "actor": {
+      "id": 502396,
+      "login": "bnb",
+      "display_login": "bnb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/502396?"
+    },
+    "repo": {
+      "id": 349212212,
+      "name": "bnb/dotfiles",
+      "url": "https://api.github.com/repos/bnb/dotfiles"
+    },
+    "payload": {
+      "repository_id": 349212212,
+      "push_id": 38445920848,
+      "ref": "refs/heads/main",
+      "head": "1e85abbfcbfbe7ed3f39b9c35155dc1d7b034984",
+      "before": "b9a6af9d46711851d4226bb06b33320204ffe904"
+    },
+    "public": true,
+    "created_at": "2026-07-29T15:51:56Z"
+  }
+]

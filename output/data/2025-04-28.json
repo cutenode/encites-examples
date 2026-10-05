@@ -1,0 +1,41 @@
+[
+  {
+    "id": "48237841905",
+    "type": "PullRequestReviewEvent",
+    "author": "bnb",
+    "repo": "nodejs/node",
+    "title": "meta: bump actions/download-artifact from 4.1.9 to 4.2.1",
+    "link": "https://github.com/nodejs/node/pull/57719",
+    "number": 57719,
+    "date": "2025-04-02T12:15:02Z",
+    "action": "created",
+    "state": "approved",
+    "commitId": "260a07c4cd7b92fe2484a988c78e13d3858220f7",
+    "reviewLink": "https://github.com/nodejs/node/pull/57719#pullrequestreview-2736047825",
+    "authorAssociation": "CONTRIBUTOR"
+  },
+  {
+    "id": "48237761406",
+    "type": "IssueCommentEvent",
+    "author": "bnb",
+    "repo": "nodejs/node",
+    "title": "tools: use github cli to squash the pr",
+    "state": "open",
+    "link": "https://github.com/nodejs/node/pull/57675",
+    "number": 57675,
+    "date": "2025-04-02T12:13:02Z",
+    "authorAssociation": "CONTRIBUTOR",
+    "commentLink": "https://github.com/nodejs/node/pull/57675#issuecomment-2772370122",
+    "reactions": {
+      "total": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
+]
